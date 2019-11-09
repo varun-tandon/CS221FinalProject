@@ -1,0 +1,42 @@
+25th Hour: /scripts/25th-Hour .html
+A.I.: /scripts/A.I. .html
+Batman and Robin: /scripts/Batman-and-Robin .html
+Batman Begins: /scripts/Batman-Begins .html
+Batman Forever: /scripts/Batman-Forever .html
+Batman Returns: /scripts/Batman-Returns .html
+Benny & Joon: /scripts/Benny-&-Joon .html
+Bourne Supremacy, The: /scripts/Bourne-Supremacy,-The .html
+Casablanca: /scripts/Casablanca .html
+Catwoman: /scripts/Catwoman .html
+Collateral: /scripts/Collateral .html
+Contact: /scripts/Contact .html
+Dark Knight, The: /scripts/Dark-Knight,-The .html
+Donnie Darko: /scripts/Donnie-Darko .html
+Executive Decision: /scripts/Executive-Decision .html
+Eyes Wide Shut: /scripts/Eyes-Wide-Shut .html
+Full Metal Jacket: /scripts/Full-Metal-Jacket .html
+Fury: /scripts/Fury .html
+Get Shorty: /scripts/Get-Shorty .html
+Goodfellas: /scripts/Goodfellas .html
+Harry Potter and the Chamber of Secrets: /scripts/Harry-Potter-and-the-Chamber-of-Secrets .html
+Harry Potter and the Deathly Hallows Part 1: /scripts/Harry-Potter-and-the-Deathly-Hallows-Part-1 .html
+Harry Potter and the Goblet of Fire: /scripts/Harry-Potter-and-the-Goblet-of-Fire .html
+Harry Potter and the Half-Blood Prince: /scripts/Harry-Potter-and-the-Half-Blood-Prince .html
+Harry Potter and the Prisoner of Azkaban: /scripts/Harry-Potter-and-the-Prisoner-of-Azkaban .html
+Harry Potter and the Sorcerer's Stone: /scripts/Harry-Potter-and-the-Sorcerer's-Stone .html
+Incredibles, The: /scripts/Incredibles,-The .html
+Innerspace: /scripts/Innerspace .html
+Lethal Weapon: /scripts/Lethal-Weapon .html
+Lethal Weapon 4: /scripts/Lethal-Weapon-4 .html
+Matchstick Men: /scripts/Matchstick-Men .html
+Napoleon Dynamite: /scripts/Napoleon-Dynamite .html
+O Brother Where Art Thou?: /scripts/O-Brother-Where-Art-Thou? .html
+Outbreak: /scripts/Outbreak .html
+Rushmore: /scripts/Rushmore .html
+Star Wars: Revenge of the Sith: /scripts/Star-Wars:-Revenge-of-the-Sith .html
+Troy: /scripts/Troy .html
+Unforgiven: /scripts/Unforgiven .html
+Valentine's Day: /scripts/Valentine's-Day .html
+Village, The: /scripts/Village,-The .html
+What About Bob?: /scripts/What-About-Bob? .html
+Who Framed Roger Rabbit?: /scripts/Who-Framed-Roger-Rabbit? .html
