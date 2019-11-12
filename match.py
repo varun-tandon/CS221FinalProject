@@ -35,7 +35,7 @@ def main():
 			if total > 200:
 				break
 
-			budget_title = row[2]
+			budget_title = row[2].lower()
 			tup = process.extractOne(budget_title, file_titles)
 			title, score = tup
 
@@ -51,17 +51,25 @@ def main():
 				if (':' in budget_title) != (':' in title):
 					continue
 
+				if contains_edgecase(title, budget_title) or contains_edgecase(budget_title, title):
+					print("contains edge case")
+					print("budget title", budget_title)
+					print("title", title)
+					print()
+					continue
+
+
 				######
 				dic[budget_title] = title
 				duplicates[title] += 1
 				w.writerow([budget_title, title.replace(' ', '-') + '.html'])
 			else:
 				missing += 1
-				print('missing area')
-				print(budget_title)
-				print(title)
-				print(score)
-				print()
+				# print('missing area')
+				# print(budget_title)
+				# print(title)
+				# print(score)
+				# print()
 
 			total += 1
 
@@ -75,6 +83,12 @@ def main():
 
 	print('dict')
 	print(dic)
+
+
+def contains_edgecase(word1, word2):
+	for word in word2.split():
+		if word1 in word and word1 != word: 
+			return True
 
 
 if __name__ == '__main__':
