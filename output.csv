@@ -1,89 +1,1292 @@
-Avatar,avatar.html
-Star Wars Ep. VII: The Force Awakens,star-wars:-the-force-awakens.html
-The Dark Knight Rises,"dark-knight,-the.html"
-Harry Potter and the Half-Blood Prince,harry-potter-and-the-half-blood-prince.html
-Superman Returns,up.html
-The Avengers,"avengers,-the.html"
-Pirates of the Caribbean: Dead Manâs Chest,pirates-of-the-caribbean:-dead-man's-chest.html
-The Amazing Spider-Man,spider-man.html
-Men in Black 3,men-in-black-3.html
-King Kong,king-kong.html
-Black Panther,black-panther.html
-Titanic,titanic.html
-Guardians of the Galaxy Vol 2,guardians-of-the-galaxy-vol-2.html
-Alice in Wonderland,ali.html
-Cars 2,cars-2.html
-Tron: Legacy,tron:-legacy.html
+avatar,avatar.html
+star wars ep. vii: the force awakens,star-wars:-the-force-awakens.html
+the dark knight rises,"dark-knight,-the.html"
+harry potter and the half-blood prince,harry-potter-and-the-half-blood-prince.html
+the avengers,"avengers,-the.html"
+pirates of the caribbean: dead manâs chest,pirates-of-the-caribbean:-dead-man's-chest.html
+the amazing spider-man,spider-man.html
+men in black 3,men-in-black-3.html
+king kong,king-kong.html
+black panther,black-panther.html
+titanic,titanic.html
+guardians of the galaxy vol 2,guardians-of-the-galaxy-vol-2.html
+cars 2,cars-2.html
+tron: legacy,tron:-legacy.html
 2012,2012.html
-Terminator Salvation,terminator-salvation.html
-The Mummy,"mummy,-the.html"
-Star Trek Into Darkness,star-trek.html
-The Great Gatsby,"great-gatsby,-the.html"
-The Dark Knight,"dark-knight,-the.html"
-Brave,braveheart.html
-Star Trek Beyond,star-trek.html
-Aladdin,aladdin.html
-"The Chronicles of Narnia: The Lion, the Witch a…","chronicles-of-narnia:-the-lion,-the-witch-and-the-wardrobe.html"
-WALL-E,wall-e.html
-The Legend of Tarzan,legend.html
-Hugo,go.html
-Movie,"lego-movie,-the.html"
-Up,up.html
-Coco,coco.html
-Ralph Breaks The Internet,break.html
-Monsters vs. Aliens,ali.html
-G.I. Joe: The Rise of Cobra,g.i.-joe:-the-rise-of-cobra.html
-Wild Wild West,wild-wild-west.html
-47 Ronin,ronin.html
-Dolittle,it.html
-Dawn of the Planet of the Apes,"planet-of-the-apes,-the.html"
-Snow White and the Huntsman,snow-white-and-the-huntsman.html
-Shrek Forever After,shrek.html
-How to Train Your Dragon,how-to-train-your-dragon.html
-Wreck-It Ralph,it.html
-Interstellar,interstellar.html
-Cowboys and Aliens,cowboys-&-aliens.html
-Beauty and the Beast,beauty-and-the-beast.html
-Shrek the Third,shrek-the-third.html
-Inception,inception.html
-Godzilla,godzilla.html
-The Curious Case of Benjamin Button,"curious-case-of-benjamin-button,-the.html"
-War for the Planet of the Apes,war-for-the-planet-of-the-apes.html
-Pearl Harbor,pearl-harbor.html
-Wonder Woman,wonder-woman.html
-Frozen,frozen.html
-Zootopia,zootopia.html
-Harry Potter and the Goblet of Fire,harry-potter-and-the-goblet-of-fire.html
-The Matrix Reloaded,"matrix-reloaded,-the.html"
-I am Legend,legend.html
-Hancock,hancock.html
-Batman Begins,batman-begins.html
-Thor,thor.html
-X-Men Origins: Wolverine,x-men-origins:-wolverine.html
-Chicken Little,it.html
-Angels & Demons,angels-&-demons.html
-Troy,troy.html
-Wrath of the Titans,e.t..html
-White House Down,it.html
-Pan,black-panther.html
-Moonfall,moon.html
-Movie,"lego-movie,-the.html"
-How to Train Your Dragon 2,how-to-train-your-dragon-2.html
-Mr. Peabody & Sherman,her.html
-Rise of the Guardians,rise-of-the-guardians.html
-Ghostbusters,ghostbusters.html
-Die Another Day,her.html
-Star Trek,star-trek.html
-Armageddon,armageddon.html
-Lethal Weapon 4,lethal-weapon-4.html
-The Last Samurai,"last-samurai,-the.html"
-Gods of Egypt,go.html
-Spider-Man,spider-man.html
-Watchmen,watchmen.html
-The Croods,"croods,-the.html"
-The Revenant,"revenant,-the.html"
-The World is Not Enough,"world-is-not-enough,-the.html"
-Rango,go.html
-Happy Feet Two,happy-feet.html
-Miami Vice,miami-vice.html
-War of the Worlds,war-of-the-worlds.html
+terminator salvation,terminator-salvation.html
+the mummy,"mummy,-the.html"
+star trek into darkness,star-trek.html
+the great gatsby,"great-gatsby,-the.html"
+the dark knight,"dark-knight,-the.html"
+star trek beyond,star-trek.html
+aladdin,aladdin.html
+"the chronicles of narnia: the lion, the witch a…","chronicles-of-narnia:-the-lion,-the-witch-and-the-wardrobe.html"
+wall-e,wall-e.html
+the legend of tarzan,legend.html
+up,up.html
+coco,coco.html
+g.i. joe: the rise of cobra,g.i.-joe:-the-rise-of-cobra.html
+wild wild west,wild-wild-west.html
+47 ronin,ronin.html
+dawn of the planet of the apes,"planet-of-the-apes,-the.html"
+snow white and the huntsman,snow-white-and-the-huntsman.html
+shrek forever after,shrek.html
+how to train your dragon,how-to-train-your-dragon.html
+interstellar,interstellar.html
+cowboys and aliens,cowboys-&-aliens.html
+beauty and the beast,beauty-and-the-beast.html
+shrek the third,shrek-the-third.html
+inception,inception.html
+godzilla,godzilla.html
+the curious case of benjamin button,"curious-case-of-benjamin-button,-the.html"
+war for the planet of the apes,war-for-the-planet-of-the-apes.html
+pearl harbor,pearl-harbor.html
+wonder woman,wonder-woman.html
+frozen,frozen.html
+zootopia,zootopia.html
+harry potter and the goblet of fire,harry-potter-and-the-goblet-of-fire.html
+the matrix reloaded,"matrix-reloaded,-the.html"
+i am legend,legend.html
+hancock,hancock.html
+batman begins,batman-begins.html
+thor,thor.html
+x-men origins: wolverine,x-men-origins:-wolverine.html
+angels & demons,angels-&-demons.html
+troy,troy.html
+wrath of the titans,e.t..html
+how to train your dragon 2,how-to-train-your-dragon-2.html
+rise of the guardians,rise-of-the-guardians.html
+ghostbusters,ghostbusters.html
+star trek,star-trek.html
+armageddon,armageddon.html
+lethal weapon 4,lethal-weapon-4.html
+the last samurai,"last-samurai,-the.html"
+spider-man,spider-man.html
+watchmen,watchmen.html
+the croods,"croods,-the.html"
+the revenant,"revenant,-the.html"
+the world is not enough,"world-is-not-enough,-the.html"
+happy feet two,happy-feet.html
+miami vice,miami-vice.html
+war of the worlds,war-of-the-worlds.html
+harry potter and the prisoner of azkaban,harry-potter-and-the-prisoner-of-azkaban.html
+the bourne ultimatum,"bourne-ultimatum,-the.html"
+kung fu panda,kung-fu-panda.html
+ant-man,"elephant-man,-the.html"
+mary poppins returns,mary-poppins.html
+megamind,megamind.html
+bad boys ii,bad-boys.html
+logan,logan.html
+harry potter and the sorcererâs stone,harry-potter-and-the-sorcerer's-stone.html
+clash of the titans,clash-of-the-titans.html
+godzilla,godzilla.html
+prometheus,prometheus.html
+batman & robin,batman-and-robin.html
+total recall,total-recall.html
+the 13th warrior,warrior.html
+life of pi,life-of-pi.html
+ghost rider,ghost-rider.html
+oblivion,oblivion.html
+robocop,robocop.html
+the fantastic four,fantastic-four.html
+speed racer,speed-racer.html
+the island,"island,-the.html"
+star wars ep. i: the phantom menace,star-wars:-the-phantom-menace.html
+star wars ep. iii: revenge of the sith,star-wars:-revenge-of-the-sith.html
+star wars ep. ii: attack of the clones,star-wars:-attack-of-the-clones.html
+gravity,gravity.html
+live free or die hard,die-hard.html
+ocean's twelve,ocean's-twelve.html
+tomorrow never dies,tomorrow-never-dies.html
+the patriot,"patriot,-the.html"
+passengers,passengers.html
+ghost in the shell,ghost.html
+the lord of the rings: the fellowship of the ring,"lord-of-the-rings:-fellowship-of-the-ring,-the.html"
+ali,ali.html
+the martian,"martian,-the.html"
+"i, robot","i,-robot.html"
+gone in 60 seconds,gone-in-60-seconds.html
+gladiator,gladiator.html
+public enemies,public-enemies.html
+casino royale,casino.html
+minority report,minority-report.html
+harry potter and the chamber of secrets,harry-potter-and-the-chamber-of-secrets.html
+terminator 2: judgment day,terminator-2:-judgement-day.html
+batman forever,batman-forever.html
+planet of the apes,"planet-of-the-apes,-the.html"
+django unchained,django-unchained.html
+true lies,true-lies.html
+american gangster,american-gangster.html
+the wolf of wall street,"wolf-of-wall-street,-the.html"
+where the wild things are,wild-things.html
+the tourist,"tourist,-the.html"
+surf's up,up.html
+starship troopers,starship-troopers.html
+catwoman,catwoman.html
+point break,point-break.html
+gangs of new york,gangs-of-new-york.html
+the fifth element,"fifth-element,-the.html"
+the lovely bones,bones.html
+finding nemo,finding-nemo.html
+the lord of the rings: the return of the king,lord-of-the-rings:-return-of-the-king.html
+the lord of the rings: the two towers,lord-of-the-rings:-the-two-towers.html
+jurassic park iii,jurassic-park-iii.html
+rise of the planet of the apes,rise-of-the-planet-of-the-apes.html
+the incredibles,"incredibles,-the.html"
+a good day to die hard,die-hard.html
+the secret life of walter mitty,"secret-life-of-walter-mitty,-the.html"
+men in black,men-in-black.html
+rush hour 2,rush-hour-2.html
+sherlock holmes,sherlock-holmes.html
+what lies beneath,what-lies-beneath.html
+the departed,"departed,-the.html"
+charlie's angels,charlie's-angels.html
+mulan,mulan.html
+tropic thunder,tropic-thunder.html
+the girl with the dragon tattoo,"girl-with-the-dragon-tattoo,-the.html"
+contact,contact.html
+valkyrie,valkyrie.html
+hollow man,hollow-man.html
+the saint,"saint,-the.html"
+mission to mars,mission-to-mars.html
+king arthur,arthur.html
+conan the barbarian,conan-the-barbarian.html
+the three musketeers,"three-musketeers,-the.html"
+army of the dead,day-of-the-dead.html
+the predator,predator.html
+fantastic four,fantastic-four.html
+hannibal,hannibal.html
+cast away,cast-away.html
+happy feet,happy-feet.html
+ocean's eleven,ocean's-eleven.html
+the bourne supremacy,"bourne-supremacy,-the.html"
+air force one,air-force-one.html
+itâs complicated,it's-complicated.html
+enemy of the state,enemy-of-the-state.html
+tower heist,heist.html
+arthur christmas,arthur.html
+meet joe black,meet-joe-black.html
+collateral damage,collateral-damage.html
+judge dredd,judge-dredd.html
+scott pilgrim vs. the world,scott-pilgrim-vs-the-world.html
+hellboy ii: the golden army,hellboy-2:-the-golden-army.html
+bruce almighty,bruce-almighty.html
+the lego batman movie,"lego-movie,-the.html"
+batman returns,batman-returns.html
+the mummy,"mummy,-the.html"
+something's gotta give,something's-gotta-give.html
+face/off,face-off.html
+just go with it,go.html
+eagle eye,eagle-eye.html
+cold mountain,cold-mountain.html
+the book of eli,"book-of-eli,-the.html"
+the haunting,"haunting,-the.html"
+fury,fury.html
+the day the earth stood still,"day-the-earth-stood-still,-the.html"
+swordfish,swordfish.html
+lost in space,lost-in-space.html
+the manchurian candidate,"manchurian-candidate,-the.html"
+the time machine,"time-machine,-the.html"
+mighty joe young,mighty-joe-young.html
+the legend of zorro,legend.html
+little nicky,little-nicky.html
+surrogates,surrogates.html
+the wild,into-the-wild.html
+thirteen days,thirteen-days.html
+nine,nine.html
+the postman,"postman,-the.html"
+red planet,red-planet.html
+arthur et les minimoys,arthur.html
+the lion king,"lion-king,-the.html"
+despicable me 2,despicable-me-2.html
+the adventures of rocky & bullwinkle,rocky.html
+the secret life of pets,life.html
+independence day,independence-day.html
+despicable me 3,despicable-me-2.html
+the lost world: jurassic park,jurassic-park:-the-lost-world.html
+x-men,x-men.html
+wanted,wanted.html
+the rock,"rock,-the.html"
+the terminal,e.t..html
+constantine,constantine.html
+life,life.html
+spanglish,spanglish.html
+hostage,hostage.html
+flight of the phoenix,flight.html
+soldier,soldier.html
+monkeybone,monkeybone.html
+unbreakable,unbreakable.html
+sphere,sphere.html
+funny people,funny-people.html
+the kingdom,"kingdom,-the.html"
+braveheart,braveheart.html
+the village,"village,-the.html"
+signs,signs.html
+who framed roger rabbit?,who-framed-roger-rabbit?.html
+runaway bride,runaway-bride.html
+xxx,xxx.html
+inglourious basterds,inglourious-basterds.html
+die hard 2,die-hard-2.html
+sleepy hollow,sleepy-hollow.html
+vanilla sky,vanilla-sky.html
+battle: los angeles,battle:-los-angeles.html
+war horse,war-horse.html
+big fish,big-fish.html
+the lego ninjago movie,"lego-movie,-the.html"
+the guardian,rise-of-the-guardians.html
+the abyss,"abyss,-the.html"
+wall street 2: money never sleeps,wall-street:-money-never-sleeps.html
+rumor has it,it.html
+the siege,"siege,-the.html"
+hard rain,hard-rain.html
+next,next.html
+hall pass,hall-pass.html
+mystery men,mystery-men.html
+the insider,"insider,-the.html"
+the last legion,legion.html
+entrapment,entrapment.html
+the x files: fight the future,"x-files:-fight-the-future,-the.html"
+need for speed,speed.html
+saving private ryan,saving-private-ryan.html
+lincoln,lincoln.html
+apollo 13,apollo-13.html
+the matrix,"matrix,-the.html"
+les miserables,les-miserables.html
+total recall,total-recall.html
+you've got mail,you've-got-mail.html
+annie,annie-hall.html
+cliffhanger,cliffhanger.html
+broken arrow,broken-arrow.html
+eyes wide shut,eyes-wide-shut.html
+blade: trinity,blade:-trinity.html
+fight club,fight-club.html
+the long kiss goodnight,"long-kiss-goodnight,-the.html"
+proof of life,life.html
+"i, frankenstein",frankenstein.html
+hudson hawk,hudson-hawk.html
+jurassic park,jurassic-park.html
+the american president,"american-president,-the.html"
+the lego movie,"lego-movie,-the.html"
+wild hogs,wild-hogs.html
+marley & me,marley-&-me.html
+the green mile,"green-mile,-the.html"
+the truman show,"truman-show,-the.html"
+the bourne identity,"bourne-identity,-the.html"
+the italian job,"italian-job,-the.html"
+collateral,collateral.html
+antz,antz.html
+man on fire,man-on-fire.html
+the family man,"family-man,-the.html"
+the horse whisperer,"horse-whisperer,-the.html"
+coraline,coraline.html
+hellboy,hellboy.html
+joy,city-of-joy.html
+paranorman,paranorman.html
+the tale of despereaux,e.t..html
+the boxtrolls,"boxtrolls,-the.html"
+the tuxedo,e.t..html
+vice,miami-vice.html
+alien: resurrection,alien:-resurrection.html
+year one,year-one.html
+star trek: nemesis,star-trek:-nemesis.html
+invictus,invictus.html
+intolerable cruelty,intolerable-cruelty.html
+the relic,"relic,-the.html"
+almost famous,almost-famous.html
+analyze that,analyze-that.html
+the legend of bagger vance,legend.html
+priest,priest.html
+event horizon,event-horizon.html
+the avengers,"avengers,-the.html"
+the black dahlia,"black-dahlia,-the.html"
+deadpool,deadpool.html
+american sniper,american-sniper.html
+life,life.html
+sex and the city,sex-and-the-city.html
+devil's advocate,devil's-advocate.html
+into the woods,into-the-woods.html
+the pacifier,"pacifier,-the.html"
+walking tall,walking-tall.html
+forrest gump,forrest-gump.html
+joker,joker.html
+date night,date-night.html
+r.v.,kramer-vs-kramer.html
+death becomes her,her.html
+executive decision,executive-decision.html
+alien 3,alien-3.html
+kubo and the two strings,e.t..html
+ronin,ronin.html
+burlesque,burlesque.html
+the ghost and the darkness,"ghost-and-the-darkness,-the.html"
+changeling,changeling.html
+instinct,basic-instinct.html
+semi-pro,semi-pro.html
+elizabeth: the golden age,elizabeth:-the-golden-age.html
+imagine that,e.t..html
+all the king's men,all-the-king's-men.html
+thunderbirds,thunderbirds.html
+law abiding citizen,law-abiding-citizen.html
+anastasia,anastasia.html
+beloved,beloved.html
+zero dark thirty,zero-dark-thirty.html
+catch me if you can,catch-me-if-you-can.html
+valentine's day,valentine's-day.html
+casino,casino.html
+the change-up,"change-up,-the.html"
+the thin red line,e.t..html
+man on the moon,man-on-the-moon.html
+the adjustment bureau,"adjustment-bureau,-the.html"
+shrek,shrek.html
+ted,ted.html
+robin hood: prince of thieves,robin-hood:-prince-of-thieves.html
+jerry maguire,jerry-maguire.html
+as good as it gets,as-good-as-it-gets.html
+super 8,super-8.html
+erin brockovich,erin-brockovich.html
+yes man,yes-man.html
+stepmom,stepmom.html
+failure to launch,e.t..html
+"crazy, stupid, love","crazy,-stupid,-love.html"
+moneyball,moneyball.html
+v for vendetta,v-for-vendetta.html
+outbreak,outbreak.html
+race to witch mountain,e.t..html
+i am number four,i-am-number-four.html
+american made,american-madness.html
+syriana,syriana.html
+the book of life,life.html
+absolute power,absolute-power.html
+the game,"game,-the.html"
+g.i. jane,g.i.-jane.html
+the replacements,"replacements,-the.html"
+the beach,"beach,-the.html"
+ninja assassin,ninja-assassin.html
+assassins,assassins.html
+defiance,defiance.html
+hannibal rising,hannibal.html
+basic,basic.html
+escape from l.a.,escape-from-l.a..html
+hellboy,hellboy.html
+dream house,mr-blandings-builds-his-dream-house.html
+gamer,gamer.html
+the life of david gale,"life-of-david-gale,-the.html"
+eastern promises,eastern-promises.html
+fair game,fair-game.html
+drive angry,drive-angry.html
+jade,jade.html
+death to smoochy,death-to-smoochy.html
+the big bounce,big.html
+hannibal the conqueror,hannibal.html
+anna karenina,anna-karenina.html
+indiana jones and the last crusade,indiana-jones-and-the-last-crusade.html
+traffic,traffic.html
+panic room,panic-room.html
+the thomas crown affair,e.t..html
+three kings,three-kings.html
+kate and leopold,kate-&-leopold.html
+out of sight,out-of-sight.html
+the cable guy,cable-guy.html
+earth,"day-the-earth-stood-still,-the.html"
+solaris,solaris.html
+silence,code-of-silence.html
+my best friend's wedding,my-best-friend's-wedding.html
+star trek: first contact,star-trek:-first-contact.html
+insomnia,insomnia.html
+courage under fire,courage-under-fire.html
+arthur and the war of two worlds,arthur.html
+liar liar,liar-liar.html
+a bug's life,life.html
+the flintstones,"flintstones,-the.html"
+scary movie 3,scary-movie-2.html
+training day,training-day.html
+the girl on the train,e.t..html
+scary movie 2,scary-movie-2.html
+blade,blade.html
+the bounty hunter,"bounty-hunter,-the.html"
+tin cup,tin-cup.html
+the hitchhiker's guide to the galaxy,"hitchhiker's-guide-to-the-galaxy,-the.html"
+cellular,cellular.html
+dune,dune.html
+revolutionary road,revolutionary-road.html
+frankenstein,frankenstein.html
+the ghost writer,ghost.html
+dredd,judge-dredd.html
+deep rising,deep-rising.html
+welcome to marwen,e.t..html
+big trouble,big.html
+argo,argo.html
+the fugitive,"fugitive,-the.html"
+the heat,heat.html
+28 days,28-days-later.html
+the mechanic,"mechanic,-the.html"
+notting hill,notting-hill.html
+red riding hood,red-riding-hood.html
+licence to kill,e.t..html
+15 minutes,15-minutes.html
+lord of war,lord-of-war.html
+8 mile,8-mile.html
+the big year,big.html
+the sixth sense,"sixth-sense,-the.html"
+the proposal,"proposal,-the.html"
+american hustle,american-hustle.html
+back to the future part ii,back-to-the-future.html
+a time to kill,e.t..html
+the social network,"social-network,-the.html"
+he's just not that into you,he's-just-not-that-into-you.html
+scary movie 4,scary-movie-2.html
+scream 3,scream-3.html
+back to the future part iii,back-to-the-future.html
+dumb and dumber to,dumb-and-dumber.html
+the talented mr. ripley,"talented-mr.-ripley,-the.html"
+the last of the mohicans,"last-of-the-mohicans,-the.html"
+jfk,jfk.html
+the final destination,final-destination.html
+17 again,17-again.html
+unknown,unknown.html
+gothika,gothika.html
+the lincoln lawyer,"lincoln-lawyer,-the.html"
+the prestige,"prestige,-the.html"
+the odd life of timothy green,life.html
+made of honor,made.html
+final destination 5,final-destination-2.html
+autumn in new york,autumn-in-new-york.html
+paul,paul.html
+colombiana,colombiana.html
+8mm,8mm.html
+hanging up,up.html
+the doors,"doors,-the.html"
+pay it forward,it.html
+arthur,arthur.html
+get rich or die tryin',e.t..html
+the other boleyn girl,"other-boleyn-girl,-the.html"
+at first sight,at-first-sight.html
+fantastic mr. fox,fantastic-mr-fox.html
+big miracle,big.html
+detroit,detroit-rock-city.html
+get carter,get-carter.html
+amelia,amelia.html
+cirque du freak: the vampire's assistant,cirque-du-freak:-the-vampire's-assistant.html
+new york minute,new-york-minute.html
+pandorum,pandorum.html
+raise the titanic,e.t..html
+the hurricane heist,heist.html
+victor frankenstein,frankenstein.html
+sunshine,eternal-sunshine-of-the-spotless-mind.html
+the hudsucker proxy,"hudsucker-proxy,-the.html"
+the time traveler's wife,e.t..html
+frankenweenie,frankenweenie.html
+serenity,serenity.html
+shoot 'em up,up.html
+the ugly truth,"ugly-truth,-the.html"
+star trek: generations,star-trek:-generations.html
+water for elephants,water-for-elephants.html
+life as we know it,life.html
+enough,enough.html
+rush,rush.html
+angel eyes,angel-eyes.html
+the ninth gate,"ninth-gate,-the.html"
+the thing,"thing,-the.html"
+white squall,white-squall.html
+the master,"master,-the.html"
+twilight,twilight.html
+we're the millers,e.t..html
+the town,e.t..html
+burn after reading,burn-after-reading.html
+magnolia,magnolia.html
+john q,john-q.html
+hot tub time machine,hot-tub-time-machine.html
+breakdown,breakdown.html
+collateral beauty,collateral.html
+reindeer games,reindeer-games.html
+snow falling on cedars,snow-falling-on-cedars.html
+gattaca,gattaca.html
+it,it.html
+the hangover,"hangover,-the.html"
+the blind side,"blind-side,-the.html"
+batman,batman.html
+true grit,true-grit.html
+rush hour,rush-hour.html
+the devil wears prada,"devil-wears-prada,-the.html"
+horrible bosses,horrible-bosses.html
+spy kids,kids.html
+saving mr. banks,saving-mr.-banks.html
+star trek: the motion picture,star-trek:-the-motion-picture.html
+the english patient,"english-patient,-the.html"
+this is 40,this-is-40.html
+l.a. confidential,l.a.-confidential.html
+a nightmare on elm street,"nightmare-on-elm-street,-a.html"
+the cell,"cell,-the.html"
+the man in the iron mask,man-in-the-iron-mask.html
+tmnt,tmnt.html
+malcolm x,malcolm-x.html
+poltergeist,night-time-(the-poltergeist-treatment).html
+license to wed,e.t..html
+donnie brasco,donnie-brasco.html
+max payne,max-payne.html
+resident evil,resident-evil.html
+the ladykillers,"ladykillers,-the.html"
+the back-up plan,"back-up-plan,-the.html"
+the pianist,"pianist,-the.html"
+mirrors,mirrors.html
+queen of the damned,queen-of-the-damned.html
+flash gordon,flash-gordon.html
+blast from the past,"blast-from-the-past,-the.html"
+heist,heist.html
+premium rush,rush.html
+wonder boys,wonder-boys.html
+the four feathers,four-feathers.html
+flight of the intruder,flight.html
+the tree of life,e.t..html
+american outlaws,american-outlaws.html
+the shipping news,"shipping-news,-the.html"
+whiteout,whiteout.html
+bound by honor,bound.html
+le hussard sur le toit,e.t..html
+a few good men,a-few-good-men.html
+big momma's house,big.html
+star wars ep. vi: return of the jedi,star-wars:-return-of-the-jedi.html
+bridesmaids,bridesmaids.html
+the reader,"reader,-the.html"
+the big wedding,big.html
+source code,source-code.html
+bringing out the dead,bringing-out-the-dead.html
+apocalypse now,apocalypse-now.html
+42,42.html
+flight,flight.html
+mr. hollandâs opus,mr.-holland's-opus.html
+frequency,frequency.html
+get shorty,get-shorty.html
+ghostbusters,ghostbusters.html
+toy story,toy-story.html
+big daddy,big.html
+speed,speed.html
+the hunt for red october,"hunt-for-red-october,-the.html"
+remember the titans,e.t..html
+the addams family,"addams-family,-the.html"
+analyze this,analyze-this.html
+se7en,se7en.html
+sisters,hannah-and-her-sisters.html
+up in the air,up-in-the-air.html
+the hitmanâs bodyguard,bodyguard.html
+looper,looper.html
+midnight in paris,midnight-in-paris.html
+life of the party,life.html
+blow,blow.html
+sicario,sicario.html
+black rain,black-rain.html
+full metal jacket,full-metal-jacket.html
+the three stooges,e.t..html
+john wick,john-wick.html
+step up 3d,up.html
+drag me to hell,drag-me-to-hell.html
+hanna,hanna.html
+larry crowne,larry-crowne.html
+carrie,carrie.html
+take the lead,e.t..html
+9,9.html
+get on up,get-on-up.html
+winnie the pooh,e.t..html
+virtuosity,virtuosity.html
+one true thing,e.t..html
+the next three days,"next-three-days,-the.html"
+runner runner,blade-runner.html
+fright night,fright-night.html
+eight legged freaks,eight-legged-freaks.html
+the whole ten yards,e.t..html
+antitrust,antitrust.html
+an unfinished life,life.html
+anna,anna-karenina.html
+the imaginarium of doctor parnassus,"imaginarium-of-doctor-parnassus,-the.html"
+machine gun preacher,machine-gun-preacher.html
+12 monkeys,12-monkeys.html
+logan lucky,logan.html
+confessions of a dangerous mind,confessions-of-a-dangerous-mind.html
+mumford,mumford.html
+the jacket,"jacket,-the.html"
+aladdin,aladdin.html
+indiana jones and the temple of doom,indiana-jones-and-the-temple-of-doom.html
+straight outta compton,straight-outta-compton.html
+die hard,die-hard.html
+the big short,big.html
+miracle,"miracle-worker,-the.html"
+dawn of the dead,dawn-of-the-dead.html
+pride & prejudice,pride-and-prejudice.html
+30 minutes or less,30-minutes-or-less.html
+blade runner,blade-runner.html
+we own the night,we-own-the-night.html
+the spy next door,next.html
+brick mansions,brick.html
+pride and prejudice and zombies,pride-and-prejudice.html
+kundun,kundun.html
+how to lose friends & alienate people,how-to-lose-friends-&-alienate-people.html
+knocked up,knocked-up.html
+a passage to india,e.t..html
+anonymous,anonymous.html
+limitless,limitless.html
+the blues brothers,"blues-brothers,-the.html"
+lake placid,lake-placid.html
+dark city,dark-city.html
+case 39,case-39.html
+suspect zero,suspect-zero.html
+shakespeare in love,shakespeare-in-love.html
+pineapple express,pineapple-express.html
+philadelphia,philadelphia.html
+a bridge too far,e.t..html
+final destination 2,final-destination-2.html
+"o brother, where art thou?",o-brother-where-art-thou?.html
+legion,legion.html
+welcome to mooseport,e.t..html
+the curse of the jade scorpion,jade.html
+blood and wine,blood-and-wine.html
+w.,blow.html
+the help,"help,-the.html"
+gran torino,gran-torino.html
+the bodyguard,bodyguard.html
+schindlerâs list,schindler's-list.html
+freddy vs. jason,freddy-vs.-jason.html
+bridge to terabithia,e.t..html
+no country for old men,no-country-for-old-men.html
+no strings attached,no-strings-attached.html
+tombstone,tombstone.html
+final destination 3,final-destination-2.html
+madea's big happy family,big.html
+goodfellas,goodfellas.html
+scarface,scarface.html
+rugrats go wild,go.html
+august: osage county,august:-osage-county.html
+cradle 2 the grave,cradle-2-the-grave.html
+august rush,rush.html
+the shawshank redemption,"shawshank-redemption,-the.html"
+the losers,"losers,-the.html"
+punch-drunk love,punch-drunk-love.html
+the ruins,"ruins,-the.html"
+"bright lights, big city",big.html
+legend,legend.html
+the box,"box,-the.html"
+the next best thing,next.html
+the girl next door,next.html
+fly me to the moon,e.t..html
+warrior,warrior.html
+serenity,serenity.html
+the road,"road,-the.html"
+say it isn't so,it.html
+deception,deception.html
+legend,legend.html
+where the truth lies,e.t..html
+on the road,"road,-the.html"
+scream 2,scream-2.html
+rocky balboa,rocky.html
+the addams family,"addams-family,-the.html"
+the whole nine yards,nine.html
+point break,point-break.html
+i still know what you did last summer,i-still-know-what-you-did-last-summer.html
+the men who stare at goats,"men-who-stare-at-goats,-the.html"
+double take,e.t..html
+nurse betty,nurse-betty.html
+star wars ep. v: the empire strikes back,star-wars:-the-empire-strikes-back.html
+bad boys,bad-boys.html
+final destination,final-destination.html
+king kong,king-kong.html
+the ides of march,"ides-of-march,-the.html"
+pitch black,pitch-black.html
+her,her.html
+eddie the eagle,e.t..html
+marvin's room,room.html
+coco avant chanel,coco.html
+ghost,ghost.html
+there's something about mary,there's-something-about-mary.html
+the game plan,"game,-the.html"
+gandhi,gandhi.html
+i am sam,i-am-sam.html
+the informant!,"informant,-the.html"
+jay and silent bob strike back,jay-and-silent-bob-strike-back.html
+the transporter refueled,e.t..html
+the island,"island,-the.html"
+silver linings playbook,silver-linings-playbook.html
+pet sematary,pet-sematary.html
+death at a funeral,death-at-a-funeral.html
+the transporter,e.t..html
+tinker tailor soldier spy,tinker-tailor-soldier-spy.html
+the rage: carrie 2,the-rage:-carrie-2.html
+away we go,go.html
+existenz,existenz.html
+raiders of the lost ark,indiana-jones-and-the-raiders-of-the-lost-ark.html
+beauty and the beast,beauty-and-the-beast.html
+la la land,la-la-land.html
+the silence of the lambs,silence-of-the-lambs.html
+jaws 2,jaws-2.html
+are we there yet?,e.t..html
+the descendants,"descendants,-the.html"
+disturbia,disturbia.html
+tyler perryâs boo! a madea halloween,halloween.html
+obsessed,obsessed.html
+tyler perry's madea's witness protection,witness.html
+12 years a slave,12-years-a-slave.html
+edward scissorhands,edward-scissorhands.html
+tyler perryâs boo 2! a madea halloween,halloween.html
+the tigger movie,e.t..html
+max,max-payne.html
+orphan,orphan.html
+conan the barbarian,conan-the-barbarian.html
+the american,"american,-the.html"
+eternal sunshine of the spotless mind,eternal-sunshine-of-the-spotless-mind.html
+babel,babel.html
+copycat,copycat.html
+she's out of my league,she's-out-of-my-league.html
+milk,milk.html
+the debt,"debt,-the.html"
+ghost ship,ghost-ship.html
+wild things,wild-things.html
+high fidelity,high-fidelity.html
+stick it,it.html
+from dusk till dawn,from-dusk-till-dawn.html
+monte carlo,monte-carlo.html
+psycho,psycho.html
+into the wild,into-the-wild.html
+fired up,up.html
+twilight,twilight.html
+ghost town,ghost.html
+the quiet american,"american,-the.html"
+triple 9,9.html
+three to tango,e.t..html
+death at a funeral,death-at-a-funeral.html
+machete kills,machete.html
+a most violent year,a-most-violent-year.html
+a scanner darkly,a-scanner-darkly.html
+alone in the dark,alone-in-the-dark.html
+the brothers bloom,"brothers-bloom,-the.html"
+"synecdoche, new york","synecdoche,-new-york.html"
+equilibrium,equilibrium.html
+the tempest,e.t..html
+the touch,e.t..html
+the thousand miles,e.t..html
+the frozen ground,frozen.html
+back to the future,back-to-the-future.html
+dances with wolves,dances-with-wolves.html
+bad teacher,bad-teacher.html
+the shining,"shining,-the.html"
+"gone, baby, gone",gone-baby-gone.html
+sex drive,drive.html
+take me home tonight,e.t..html
+george a. romero's land of the dead,land-of-the-dead.html
+adaptation,adaptation.html
+the invention of lying,"invention-of-lying,-the.html"
+fear and loathing in las vegas,fear-and-loathing-in-las-vegas.html
+the hunt,snow-white-and-the-huntsman.html
+the mask,"mask,-the.html"
+big,big.html
+legally blonde,legally-blonde.html
+bad santa,bad-santa.html
+predator,predator.html
+amadeus,amadeus.html
+prom night,prom-night.html
+under the tuscan sun,e.t..html
+birdman or (the unexpected virtue of ignorance),birdman.html
+peggy sue got married,peggy-sue-got-married.html
+love the coopers,e.t..html
+observe and report,observe-and-report.html
+raging bull,raging-bull.html
+young sherlock holmes,sherlock-holmes.html
+127 hours,127-hours.html
+life as a house,life-as-a-house.html
+youth in revolt,youth-in-revolt.html
+blow out,blow.html
+the tailor of panama,e.t..html
+the legend of the lone ranger,legend.html
+the ice storm,"ice-storm,-the.html"
+nine 1/2 weeks,nine.html
+the last station,"last-station,-the.html"
+dragonslayer,dragonslayer.html
+ed wood,ed-wood.html
+rocknrolla,rocknrolla.html
+the salton sea,"salton-sea,-the.html"
+wolves,dances-with-wolves.html
+day of the dead,day-of-the-dead.html
+superbad,superbad.html
+hotel rwanda,hotel-rwanda.html
+a quiet place,a-quiet-place.html
+aliens,aliens.html
+i know what you did last summer,i-still-know-what-you-did-last-summer.html
+sideways,sideways.html
+friday the 13th,friday-the-13th.html
+evil dead,evil-dead.html
+saw 3d,saw.html
+the hills have eyes,"hills-have-eyes,-the.html"
+smokin' aces,smokin'-aces.html
+tron,tron.html
+my life in ruins,life.html
+genius,real-genius.html
+my girl,my-girl.html
+wall street,wall-street.html
+sense and sensibility,sense-and-sensibility.html
+dead poets society,dead-poets-society.html
+dumb & dumber,dumb-and-dumber.html
+when harry met sallyâ¦,when-harry-met-sally.html
+the verdict,"verdict,-the.html"
+moonrise kingdom,moonrise-kingdom.html
+the artist,"artist,-the.html"
+the roommate,"roommate,-the.html"
+remember me,remember-me.html
+jennifer's body,jennifer's-body.html
+my stepmother is an alien,alien.html
+the thirteenth floor,e.t..html
+highlander,highlander.html
+detroit rock city,detroit-rock-city.html
+good,a-few-good-men.html
+slither,slither.html
+top gun,top-gun.html
+the kingâs speech,"king's-speech,-the.html"
+american beauty,american-beauty.html
+"crouching tiger, hidden dragon","crouching-tiger,-hidden-dragon.html"
+twins,twins.html
+scream,scream.html
+lethal weapon,lethal-weapon.html
+halloween,halloween.html
+the queen,"queen,-the.html"
+little women,little-men.html
+the deer hunter,"deer-hunter,-the.html"
+blackkklansman,blackkklansman.html
+when a stranger calls,when-a-stranger-calls.html
+big fat liar,liar-liar.html
+wag the dog,wag-the-dog.html
+wild,beasts-of-the-southern-wild.html
+the theory of everything,"theory-of-everything,-the.html"
+drive,drive.html
+malibu's most wanted,malibu's-most-wanted.html
+all about steve,all-about-steve.html
+where the heart is,e.t..html
+the princess bride,"princess-bride,-the.html"
+clash of the titans,clash-of-the-titans.html
+grosse pointe blank,grosse-point-blank.html
+love and basketball,love-and-basketball.html
+boogie nights,boogie-nights.html
+nowhere to run,e.t..html
+the hills have eyes ii,"hills-have-eyes,-the.html"
+the big lebowski,"big-lebowski,-the.html"
+the hurt locker,"hurt-locker,-the.html"
+whip it,it.html
+highlander: endgame,highlander:-endgame.html
+confidence,confidence.html
+brazil,brazil.html
+black snake moan,black-snake-moan.html
+mulholland drive,mulholland-drive.html
+never let me go,go.html
+the disappointments room,room.html
+groundhog day,groundhog-day.html
+romeo+juliet,romeo-&-juliet.html
+unforgiven,unforgiven.html
+pretty woman,pretty-woman.html
+slumdog millionaire,slumdog-millionaire.html
+urban legend,legend.html
+the iron lady,"iron-lady,-the.html"
+"new york, new york",autumn-in-new-york.html
+jason x,jason-x.html
+a walk on the moon,moon.html
+margaret,margaret.html
+reign of assassins,assassins.html
+clueless,clueless.html
+the ten commandments,e.t..html
+the last godfather,godfather.html
+black swan,black-swan.html
+save the last dance,save-the-last-dance.html
+the butterfly effect,"butterfly-effect,-the.html"
+robocop,robocop.html
+10 things i hate about you,10-things-i-hate-about-you.html
+the big hit,big.html
+ex machina,ex-machina.html
+being john malkovich,being-john-malkovich.html
+the perks of being a wallflower,"perks-of-being-a-wallflower,-the.html"
+room,room.html
+serial mom,serial-mom.html
+light it up,it.html
+birthday girl,birthday-girl.html
+"paris, je t'aime",e.t..html
+youth,youth-in-revolt.html
+"i love you, phillip morris",i-love-you-phillip-morris.html
+machete,machete.html
+true romance,true-romance.html
+glengarry glen ross,glengarry-glen-gross.html
+casino jack,casino.html
+the land before time,e.t..html
+jaws,jaws.html
+the fault in our stars,"fault-in-our-stars,-the.html"
+american pie,american-pie.html
+star trek ii: the wrath of khan,star-trek-ii:-the-wrath-of-khan.html
+ace ventura: pet detective,ace-ventura:-pet-detective.html
+witness,witness.html
+step up,up.html
+chronicle,chronicle.html
+beavis and butt-head do america,beavis-and-butt-head-do-america.html
+lion,"lion-king,-the.html"
+jackie brown,jackie-brown.html
+crank,crank.html
+casino royale,casino.html
+stir of echoes,stir-of-echoes.html
+the boys from brazil,brazil.html
+max keeble's big move,big.html
+rachel getting married,rachel-getting-married.html
+arbitrage,arbitrage.html
+married life,life.html
+welcome to collinwood,e.t..html
+life before her eyes,her.html
+drive hard,drive.html
+pet sematary,pet-sematary.html
+star wars ep. iv: a new hope,star-wars:-a-new-hope.html
+gremlins,gremlins.html
+the fighter,"fighter,-the.html"
+major league,major-league.html
+phone booth,phone-booth.html
+a walk to remember,"walk-to-remember,-a.html"
+cruel intentions,cruel-intentions.html
+the secret life of bees,life.html
+saw vi,saw.html
+barry lyndon,barry-lyndon.html
+army of darkness,army-of-darkness.html
+saw v,saw.html
+alien,alien.html
+poltergeist,night-time-(the-poltergeist-treatment).html
+darkness,army-of-darkness.html
+2001: a space odyssey,2001:-a-space-odyssey.html
+halloween,halloween.html
+good will hunting,good-will-hunting.html
+the grudge,"grudge,-the.html"
+saw iii,saw.html
+bring it on,it.html
+saw iv,saw.html
+precious (based on the novel push by sapphire),precious.html
+the best exotic marigold hotel,"best-exotic-marigold-hotel,-the.html"
+st. elmoâs fire,st.-elmo's-fire.html
+commando,commando.html
+"everything, everything","theory-of-everything,-the.html"
+friday after next,next.html
+the second best exotic marigold hotel,"best-exotic-marigold-hotel,-the.html"
+dogma,dogma.html
+snatch,snatch.html
+a low down dirty shame,shame.html
+mud,mud.html
+valentine,blue-valentine.html
+sugar hill,sugar.html
+rushmore,rushmore.html
+tremors,tremors.html
+my week with marilyn,my-week-with-marilyn.html
+big eyes,big-eyes.html
+get over it,it.html
+the legend of drunken master,legend.html
+office space,office-space.html
+drop dead gorgeous,drop-dead-gorgeous.html
+very bad things,very-bad-things.html
+over her dead body,her.html
+bones,bones.html
+cedar rapids,cedar-rapids.html
+american history x,american-history-x.html
+crash,crash.html
+the limey,"limey,-the.html"
+peaceful warrior,warrior.html
+bamboozled,bamboozled.html
+a better life,life.html
+spider,kiss-of-the-spider-woman.html
+cecil b. demented,cecil-b.-demented.html
+50 to 1,50-50.html
+the ten commandments,e.t..html
+coriolanus,coriolanus.html
+la femme de chambre du titanic,titanic.html
+welcome to the rileys,e.t..html
+the open road,"road,-the.html"
+american heist,heist.html
+amour,amour.html
+next friday,next-friday.html
+you only live twice,e.t..html
+heavy metal,heavy-metal.html
+set it off,it.html
+harold & kumar go to white castle,harold-and-kumar-go-to-white-castle.html
+boiler room,room.html
+jackie,jackie-brown.html
+the legend of suriyothai,legend.html
+heist,heist.html
+election,election.html
+the city of your final destination,final-destination.html
+pulp fiction,pulp-fiction.html
+easy a,easy-a.html
+28 days laterâ¦,28-days-later.html
+50/50,50-50.html
+brown sugar,sugar.html
+drive me crazy,drive.html
+enough said,enough.html
+american psycho,american-psycho.html
+the good girl,"good-girl,-the.html"
+the boondock saints 2: all saints day,boondock-saints-2:-all-saints-day.html
+shadow of the vampire,shadow-of-the-vampire.html
+held up,up.html
+showdown in little tokyo,e.t..html
+made in dagenham,made.html
+welcome to dongmakgol,e.t..html
+the death and life of bobby z,life.html
+backstabbing for beginners,beginners.html
+(500) days of summer,500-days-of-summer.html
+an education,an-education.html
+extract,extract.html
+masked and anonymous,anonymous.html
+crash,crash.html
+3,alien-3.html
+juno,juno.html
+the godfather,godfather.html
+the piano,"piano,-the.html"
+capote,capote.html
+the great gatsby,"great-gatsby,-the.html"
+logan's run,logan's-run.html
+fargo,fargo.html
+buffy the vampire slayer,buffy-the-vampire-slayer.html
+"house of 1,000 corpses",house-of-1000-corpses.html
+silver bullet,silver-bullet.html
+a serious man,a-serious-man.html
+get low,get-low.html
+who's your caddy?,who's-your-daddy.html
+i hope they serve beer in hell,they.html
+losin' it,it.html
+hesher,hesher.html
+the boondock saints,"boondock-saints,-the.html"
+"remember me, my love",remember-me.html
+shame,shame.html
+the terminator,terminator.html
+the damned united,"damned-united,-the.html"
+platoon,platoon.html
+mary poppins,mary-poppins.html
+ordinary people,ordinary-people.html
+the wrestler,"wrestler,-the.html"
+do the right thing,do-the-right-thing.html
+escape from new york,escape-from-new-york.html
+the wood,into-the-woods.html
+the usual suspects,"usual-suspects,-the.html"
+the guard,rise-of-the-guardians.html
+the wild bunch,"wild-bunch,-the.html"
+beasts of no nation,beasts-of-no-nation.html
+lucky break,break.html
+planet of the apes,"planet-of-the-apes,-the.html"
+the train,e.t..html
+the sting,"sting,-the.html"
+ghost world,ghost-world.html
+grabbers,grabbers.html
+the ten,e.t..html
+a room for romeo brass,room.html
+my big fat greek wedding,big.html
+get out,get-out.html
+saw ii,saw.html
+the big sick,"big-sick,-the.html"
+dallas buyers club,dallas-buyers-club.html
+the elephant man,"elephant-man,-the.html"
+memento,memento.html
+clerks ii,clerks.html
+the way way back,"way-back,-the.html"
+halloween: the curse of michael myers,halloween:-the-curse-of-michael-myers.html
+friday the 13th part viii: jason takes manhattan,friday-the-13th-part-viii:-jason-takes-manhattan.html
+lone star,lone-star.html
+april fool's day,april-fool's-day.html
+diner,diner.html
+sunshine cleaning,sunshine-cleaning.html
+made,made.html
+moon,moon.html
+the sweet hereafter,"sweet-hereafter,-the.html"
+green room,room.html
+heavenly creatures,heavenly-creatures.html
+light sleeper,light-sleeper.html
+bottle rocket,bottle-rocket.html
+psych 9,9.html
+aztec warrior,warrior.html
+sling blade,sling-blade.html
+only god forgives,only-god-forgives.html
+take shelter,take-shelter.html
+fast times at ridgemont high,fast-times-at-ridgemont-high.html
+25th hour,25th-hour.html
+bound,bound.html
+lã¥t den rã¤tte komma in,a.i..html
+donnie darko,donnie-darko.html
+life during wartime,life.html
+after.life,after.life.html
+one flew over the cuckoo's nest,one-flew-over-the-cuckoo's-nest.html
+anna,anna-karenina.html
+the crying game,crying-game.html
+lost in translation,lost-in-translation.html
+annie hall,annie-hall.html
+the boy next door,next.html
+leaving las vegas,leaving-las-vegas.html
+monster's ball,monster's-ball.html
+boyhood,boyhood.html
+the kids are all right,"kids-are-all-right,-the.html"
+life of brian,life.html
+late night,date-night.html
+they live,they.html
+the darkness,"ghost-and-the-darkness,-the.html"
+the visitor,"visitor,-the.html"
+the cooler,"cooler,-the.html"
+four rooms,four-rooms.html
+joe,meet-joe-black.html
+psycho beach party,psycho.html
+the big tease,big.html
+a lonely place to die,e.t..html
+down for life,life.html
+the taking of pelham one two three,"taking-of-pelham-one-two-three,-the.html"
+unknown,unknown.html
+midnight cowboy,midnight-cowboy.html
+forever my girl,my-girl.html
+gods and monsters,gods-and-monsters.html
+evil dead ii,evil-dead.html
+day of the dead,day-of-the-dead.html
+pootie tang,e.t..html
+time to choose,e.t..html
+margin call,margin-call.html
+human traffic,traffic.html
+beginners,beginners.html
+feast,feast.html
+itâs a wonderful life,it's-a-wonderful-life.html
+trainspotting,trainspotting.html
+war room,room.html
+a room with a view,room.html
+the apartment,"apartment,-the.html"
+beneath the planet of the apes,"planet-of-the-apes,-the.html"
+next day air,next.html
+water,candle-to-water.html
+frances ha,frances.html
+days of heaven,days-of-heaven.html
+basquiat,basquiat.html
+elephant,"elephant-man,-the.html"
+before we go,go.html
+they came together,e.t..html
+point blank,grosse-point-blank.html
+some like it hot,it.html
+young frankenstein,frankenstein.html
+the wizard of oz,"wizard-of-oz,-the.html"
+diary of the dead,day-of-the-dead.html
+timber falls,timber-falls.html
+garden state,garden-state.html
+halloween ii,halloween.html
+escape from the planet of the apes,"planet-of-the-apes,-the.html"
+brick lane,brick.html
+my life without me,life.html
+8 days,28-days-later.html
+go for it!,go.html
+the brave little toaster,e.t..html
+the french connection,"french-connection,-the.html"
+the timber,e.t..html
+mad max 2: the road warrior,mad-max-2:-the-road-warrior.html
+in the heat of the night,heat.html
+sleeper,light-sleeper.html
+everything you always wanted to know,wanted.html
+it follows,it.html
+american splendor,american-splendor.html
+thirteen,thirteen-days.html
+in the shadow of the moon,moon.html
+dinner rush,rush.html
+it's all gone pete tong,e.t..html
+london,american-werewolf-in-london.html
+bone tomahawk,e.t..html
+nine dead,nine.html
+highway,lost-highway.html
+coffee town,e.t..html
+true bromance,true-romance.html
+buried,buried.html
+man on wire,man-on-fire.html
+carrie,carrie.html
+a nightmare on elm street,"nightmare-on-elm-street,-a.html"
+beasts of the southern wild,beasts-of-the-southern-wild.html
+battle for the planet of the apes,"planet-of-the-apes,-the.html"
+beginnerâs guide to sex,e.t..html
+may,martha-marcy-may-marlene.html
+i spit on your grave,i-spit-on-your-grave.html
+in the bedroom,in-the-bedroom.html
+conquest of the planet of the apes,"planet-of-the-apes,-the.html"
+from here to eternity,from-here-to-eternity.html
+insidious,insidious.html
+kids,kids.html
+dawn of the dead,dawn-of-the-dead.html
+the to do list,e.t..html
+repo man,repo-man.html
+blood simple,blood-simple.html
+killing zoe,killing-zoe.html
+the believer,"believer,-the.html"
+teefa in trouble,a.i..html
+closer to the moon,moon.html
+#horror,"rocky-horror-picture-show,-the.html"
+my girlfriend's boyfriend,my-girl.html
+house at the end of the drive,drive.html
+batman - the movie,batman.html
+"lock, stock and two smoking barrels","lock,-stock-and-two-smoking-barrels.html"
+the hebrew hammer,"hebrew-hammer,-the.html"
+the 41-year-old virgin who knocked up sarah mar…,knocked-up.html
+dear white people,dear-white-people.html
+saw,saw.html
+"sex, lies, and videotape","sex,-lies-and-videotape.html"
+you can count on me,you-can-count-on-me.html
+strangers on a train,strangers-on-a-train.html
+the trouble with harry,e.t..html
+the day the earth stood still,"day-the-earth-stood-still,-the.html"
+reservoir dogs,reservoir-dogs.html
+the rocky horror picture show,"rocky-horror-picture-show,-the.html"
+blood feast,feast.html
+grand theft parsons,grand-theft-parsons.html
+the islands,"island,-the.html"
+beyond the black rainbow,black-rain.html
+casablanca,casablanca.html
+rocky,rocky.html
+taxi driver,taxi-driver.html
+you're next,next.html
+hellraiser,hellraiser.html
+blue valentine,blue-valentine.html
+love me tender,e.t..html
+the sessions,"sessions,-the.html"
+the skeleton twins,twins.html
+next stop wonderland,next.html
+martha marcy may marlene,martha-marcy-may-marlene.html
+frozen river,frozen-river.html
+panic,panic-room.html
+the future,back-to-the-future-ii-&-iii.html
+the battle of shaker heights,"battle-of-shaker-heights,-the.html"
+the last big thing,big.html
+16 to life,life.html
+alone with her,her.html
+special,after-school-special.html
+in her line of fire,her.html
+jimmy and judy,jimmy-and-judy.html
+black rock,bad-day-at-black-rock.html
+jesse,celeste-&-jesse-forever.html
+fruitvale station,fruitvale-station.html
+windsor drive,drive.html
+celeste and jesse forever,celeste-&-jesse-forever.html
+welcome to the dollhouse,e.t..html
+american graffiti,american-graffiti.html
+walter,"secret-life-of-walter-mitty,-the.html"
+king kong,king-kong.html
+after,after-school-special.html
+they will have to kill us first,they.html
+the maid's room,room.html
+julija in alfa romeo,a.i..html
+friday the 13th,friday-the-13th.html
+to save a life,life.html
+monsters,gods-and-monsters.html
+insomnia manica,insomnia.html
+the toxic avenger,e.t..html
+brick,brick.html
+napoleon dynamite,napoleon-dynamite.html
+the evil dead,evil-dead.html
+halloween,halloween.html
+it happened one night,it-happened-one-night.html
+chasing amy,chasing-amy.html
+cube,cube.html
+sugar town,sugar.html
+the frozen,frozen.html
+butterfly,"butterfly-effect,-the.html"
+the big parade,big.html
+little big top,big.html
+burn,burn-after-reading.html
+swingers,swingers.html
+theresa is a mother,a.i..html
+h.,48-hrs..html
+a ghost story,ghost.html
+the night visitor,"visitor,-the.html"
+dawn of the crescent moon,moon.html
+pi,pi.html
+big things,big.html
+raymond did it,it.html
+the legend of god's gun,legend.html
+clerks,clerks.html
+the terrorist,e.t..html
+el mariachi,el-mariachi.html
