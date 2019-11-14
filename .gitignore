@@ -1,6 +1,6 @@
-221venv/
-.ipynb_checkpoints/
-.vscode/
+221venv/*
+.ipynb_checkpoints/*
+.vscode/*
 .DS_Store
 data_parsed_contains_word_features.csv
 data_parsed.csv
