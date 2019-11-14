@@ -4,12 +4,6 @@ import csv
 from collections import defaultdict
 
 def main():
-	#options = ['I, Robot', 'Robotics', 'Robots', 'housewives']
-	#highest = process.extract('i,robot', options)
-	#print(highest)
-
-	#options.remove(highest[0][0])
-	#print(options)
 	dic = dict()
 	file_titles = list()
 
@@ -65,11 +59,6 @@ def main():
 				w.writerow([budget_title, title.replace(' ', '-') + '.html'])
 			else:
 				missing += 1
-				# print('missing area')
-				# print(budget_title)
-				# print(title)
-				# print(score)
-				# print()
 
 			total += 1
 
@@ -87,7 +76,7 @@ def main():
 
 def contains_edgecase(word1, word2):
 	for word in word2.split():
-		if word1 in word and word1 != word: 
+		if word1 in word and word1 != word:
 			return True
 
 
