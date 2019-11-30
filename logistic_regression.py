@@ -16,7 +16,7 @@ def bool_to_int(x):
 df = pd.read_csv('data_parsed_contains_word_features.csv')
 df['y'] = df['IsProfitable'].apply(bool_to_int)
 
-features = ['script_author_features']
+features = ['contains_director_features']
 examples_list = []
 for feature in features:
     examples = df[feature]
@@ -31,13 +31,13 @@ v = DictVectorizer()
 X = v.fit_transform(examples_list)
 y = df['y'].to_numpy()
 
-sm = SMOTE()
-X, y = sm.fit_resample(X, y)
-X = X.toarray()
+# sm = SMOTE()
+# X, y = sm.fit_resample(X, y)
+# X = X.toarray()
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 
-clf = LogisticRegression(random_state=0, solver='lbfgs', max_iter=500).fit(X_train, y_train)
+clf = LogisticRegression(random_state=0, solver='lbfgs', max_iter=100).fit(X_train, y_train)
 y_pred = clf.predict(X_test)
 
 # accuracy = accuracy_score(y_test, y_pred)

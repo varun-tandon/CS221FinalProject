@@ -16,7 +16,7 @@ else:
 
 nltk.download('averaged_perceptron_tagger')
 
-df = pd.read_csv('data_parsed.csv')
+distinct_df = pd.read_csv('rotten_tom_movies_distinct_matched.csv')
 
 def contains_word_extractor(x):
     contains_word_features = {}
@@ -55,23 +55,36 @@ def script_author(x):
     x['script_author_features'] = json.dumps(script_author_features)
     return x
 
-def count_num_words(x):
-    with open('movie_scripts/' + x['ScriptLink']) as f:
-        text = f.read()
-        tokens = text.split()
-        x['num_words'] = len(tokens)
+def contains_director(x):
+    contains_director_features = {}
+    if type(x['directors']) != str:
+        x['contains_director_features'] = json.dumps({})
+        return x
+    directors = x['directors'].split(',')
+    for director in directors:
+        contains_director_features['contains_director_' + director.strip()] = 1
+    x['contains_director_features'] = json.dumps(contains_director_features)
     return x
 
-def count_num_chars(x):
-    with open('movie_scripts/' + x['ScriptLink']) as f:
-        text = f.read()
-        x['num_chars'] = len(text.split())
+def contains_cast_member(x):
+    contains_director_features = {}
+    if type(x['directors']) != str:
+        x['contains_director_features'] = json.dumps({})
+        return x
+    directors = x['directors'].split(',')
+    for director in directors:
+        contains_director_features['contains_director_' + director.strip()] = 1
+    x['contains_director_features'] = json.dumps(contains_director_features)
     return x
 
+def isProfitable(x):
+    x['IsProfitable'] = 1 if x['WorldwideGross'] > x['ProductionBudget'] else 0
+    return x
 
-df = df.apply(contains_blank_occ_of_word, axis=1)
-df = df.apply(script_author, axis=1)
+distinct_df = distinct_df.apply(isProfitable, axis=1)
+distinct_df = distinct_df.apply(contains_director, axis=1)
 # df = df.apply(count_num_words, axis=1)
 # df = df.apply(count_num_chars, axis=1)
-df = df.drop(columns=['Unnamed: 0'])
-df.to_csv('data_parsed_contains_word_features.csv')
+# distinct_df = distinct_df[df.contains_director_features != 'Tina']
+distinct_df = distinct_df.drop(columns=['Unnamed: 0'])
+distinct_df.to_csv('data_parsed_contains_word_features.csv')
