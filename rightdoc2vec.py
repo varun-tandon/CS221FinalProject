@@ -82,4 +82,7 @@ class Doc2VecTrainer(object):
 import pandas as pd
 df = pd.read_csv('https://raw.githubusercontent.com/varun-tandon/CS221FinalProject/master/data_parsed.csv?token=AHDIPXV4DXUX3G34RA26EFC55QZXK')
 doc2vec_model = Doc2VecTrainer(df)
+
+
 doc2vec_model.run()
+
