@@ -9,6 +9,7 @@ from sklearn.ensemble import ExtraTreesClassifier
 from sklearn.ensemble import VotingClassifier
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import GradientBoostingClassifier
+from sklearn.naive_bayes import GaussianNB
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import roc_auc_score
@@ -55,11 +56,14 @@ y = df['y'].to_numpy()
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1)
 
 classifiers = [
-    RandomForestClassifier(n_estimators=100, n_jobs=-1, random_state=1),
-    KNeighborsClassifier(n_neighbors=3, n_jobs=-1),
     LogisticRegression(solver='lbfgs', max_iter=1000, random_state=1),
-    ExtraTreesClassifier(n_estimators=100, max_depth=None, n_jobs=-1, random_state=1),
+    KNeighborsClassifier(n_neighbors=3, n_jobs=-1),
+    LinearSVC(max_iter=1000),
     svm.SVC(gamma='scale'),
+    BaggingClassifier(LogisticRegression(solver='lbfgs', max_iter=1000, random_state=1), n_jobs=-1),
+    RandomForestClassifier(n_estimators=100, n_jobs=-1, random_state=1),
+    MLPClassifier(hidden_layer_sizes=(100, 50, 10), early_stopping=True),
+    GaussianNB()
 ]
 
 for clf in classifiers:

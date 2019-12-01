@@ -27,15 +27,15 @@ def bool_to_int(x):
 
 df = pd.read_csv('data_parsed_contains_word_features.csv')
 df['y'] = df['tomatometer_status'].apply(bool_to_int)
-
+df.to_csv('sanity.csv')
 features = [
     'contains_director_features', 
     'genre_features', 
     'contains_cast_features', 
     'runtime_features', 
-    'movie_title_features',
+    # 'movie_title_features',
     'movie_rating_features',
-    'movie_desc_features'
+    # 'movie_desc_features'
 ]
 examples_list = []
 for feature in features:
@@ -60,13 +60,14 @@ X = X.toarray()
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1)
 
 classifiers = [
-    # RandomForestClassifier(n_estimators=100, n_jobs=-1, random_state=1),
-    # KNeighborsClassifier(n_neighbors=3, n_jobs=-1),
-    LogisticRegression(solver='lbfgs', max_iter=1000, random_state=1),
-    MLPClassifier(hidden_layer_sizes=(80000, 10000, 5000, 2000, 500, 100, 50, 10))
-    # ExtraTreesClassifier(n_estimators=100, max_depth=None, n_jobs=-1, random_state=1),
-    # svm.SVC(kernel='linear'),
-    # GaussianNB()
+    LogisticRegression(solver='lbfgs', max_iter=1000, random_state=1, n_jobs=-1, verbose=True),
+    KNeighborsClassifier(n_neighbors=3, n_jobs=-1),
+    LinearSVC(max_iter=1000),
+    svm.SVC(gamma='scale'),
+    BaggingClassifier(LogisticRegression(solver='lbfgs', max_iter=1000, random_state=1), n_jobs=-1),
+    RandomForestClassifier(n_estimators=100, n_jobs=-1, random_state=1),
+    GaussianNB(),
+    MLPClassifier(hidden_layer_sizes=(100, 50, 10), early_stopping=True),
 ]
 
 for clf in classifiers:
