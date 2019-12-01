@@ -12,6 +12,31 @@ knitr::opts_chunk$set(echo = TRUE)
 ## R Markdown
 
 ```{r}
-movie_data <- 5
+movie.data <- read.csv("rotten_tom_movies_distinct_matched.csv")
+print(movie.data)
+```
+
+
+```{r}
+attach(movie_data)
+#movie_data[,movie_data$tomatomatometer_status] <- ifelse(movie_data[,movie_data$tomatomatometer_status] != "Rotten", "Fresh", "Rotten")
+condition <- ifelse(tomatometer_status != "Rotten", "Fresh", "Rotten")
+movie.data <- data.frame(movie.data, condition)
+print(movie_data)
+```
+
+```{r}
+train = sample(nrow(movie.data), 3800)
+movie.data.train = movie.data[train,]
+movie.data.test = movie.data[-train,]
+movie.data.train$names
+names(movie.data.train)
+#pairs(movie.data.train[1:100,16:30])
+#lm.fit = lm(tomatometer_status~., data=movie.data.train)
+#summary(lm.fit)
+
+#regress on budget
+
+
 ```
 
