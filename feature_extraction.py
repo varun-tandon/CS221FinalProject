@@ -18,43 +18,6 @@ nltk.download('averaged_perceptron_tagger')
 
 distinct_df = pd.read_csv('rotten_tom_movies_distinct_matched.csv')
 
-def contains_word_extractor(x):
-    contains_word_features = {}
-    with open('movie_scripts/' + x['ScriptLink']) as f:
-        text = f.read()
-        words = text.split()
-        for word in words:
-            contains_word_features['contains_word_' + word] = True
-    x['contains_word_features'] = json.dumps(contains_word_features)
-    return x
-
-def contains_blank_occ_of_word(x):
-    contains_occ_of_word_features = {}
-    with open('movie_scripts/' + x['ScriptLink']) as f:
-        text = f.read()
-        words = text.split()
-        for word in words:
-            key = word + '_num_occ'
-            if key in contains_occ_of_word_features:
-                contains_occ_of_word_features[key] += 1
-            else:
-                contains_occ_of_word_features[key] = 1
-    x['contains_occ_of_word_features'] = json.dumps(contains_occ_of_word_features)
-    return x
-
-def script_author(x):
-    script_author_features = {}
-    with open('movie_scripts/' + x['ScriptLink']) as f:
-        text = f.read()
-        by_index = text.lower().find('by')
-        text = text[by_index + 2:by_index + 100]
-        text = re.sub(r'<[^>]*>', '', text)
-        text_tok = text.split()
-        text_pos = nltk.pos_tag(text_tok)
-        script_author_features['author_is_' + ' '.join([nnp[0] for nnp in text_pos if nnp[1] == 'NNP'][0:2])] = 1
-    x['script_author_features'] = json.dumps(script_author_features)
-    return x
-
 def contains_director(x):
     contains_director_features = {}
     if type(x['directors']) != str:
@@ -66,23 +29,73 @@ def contains_director(x):
     x['contains_director_features'] = json.dumps(contains_director_features)
     return x
 
-def contains_cast_member(x):
-    contains_director_features = {}
-    if type(x['directors']) != str:
-        x['contains_director_features'] = json.dumps({})
+def contains_cast(x):
+    contains_cast_features = {}
+    if type(x['cast']) != str:
+        x['contains_cast_features'] = json.dumps({})
         return x
-    directors = x['directors'].split(',')
-    for director in directors:
-        contains_director_features['contains_director_' + director.strip()] = 1
-    x['contains_director_features'] = json.dumps(contains_director_features)
+    cast = x['cast'].split(',')
+    for cast_mem in cast:
+        contains_cast_features['contains_cast_' + cast_mem.strip()] = 1
+    x['contains_cast_features'] = json.dumps(contains_cast_features)
+    return x
+
+def genre_features(x):
+    genre_features = {}
+    genres = x['genre'].split(',')
+    for genre in genres:
+        genre_features['is_genre_' + genre] = 1
+    x['genre_features'] = json.dumps(genre_features)
+    return x
+
+def runtime_features(x):
+    runtime_features = {}
+    runtime_features['runtime'] = x['runtime_in_minutes']
+    x['runtime_features'] = json.dumps(runtime_features)
+    return x
+
+def profitable_features(x):
+    profitable_features = {}
+    x['profitable_features'] = json.dumps({'is_profitable': x['IsProfitable']})
+    return x
+
+def movie_title_features(x):
+    movie_title_features = {}
+    movie_title_words = x['movie_title'].split()
+    for movie_title_word in movie_title_words:
+        movie_title_features['has_word_in_title_' + movie_title_word.lower()] = 1
+    x['movie_title_features'] = json.dumps(movie_title_features)
+    return x
+
+def movie_desc_features(x):
+    movie_desc_features = {}
+    movie_desc_words = x['movie_info'].split()
+    for movie_desc_word in movie_desc_words:
+        movie_desc_features['has_word_in_desc_' + movie_desc_word.lower()] = 1
+    x['movie_desc_features'] = json.dumps(movie_desc_features)
+    return x
+
+def movie_rating(x):
+    movie_rating_features = {}
+    movie_rating_features['movie_rating_is_' + x['rating']] = 1
+    x['movie_rating_features'] = json.dumps(movie_rating_features)
     return x
 
 def isProfitable(x):
     x['IsProfitable'] = 1 if x['WorldwideGross'] > x['ProductionBudget'] else 0
     return x
 
+distinct_df['runtime_in_minutes'] = distinct_df['runtime_in_minutes'].fillna(0)
+distinct_df['movie_info'] = distinct_df['movie_info'].fillna('')
 distinct_df = distinct_df.apply(isProfitable, axis=1)
 distinct_df = distinct_df.apply(contains_director, axis=1)
+distinct_df = distinct_df.apply(contains_cast, axis=1)
+distinct_df = distinct_df.apply(genre_features, axis=1)
+distinct_df = distinct_df.apply(runtime_features, axis=1)
+distinct_df = distinct_df.apply(profitable_features, axis=1)
+distinct_df = distinct_df.apply(movie_title_features, axis=1)
+distinct_df = distinct_df.apply(movie_desc_features, axis=1)
+distinct_df = distinct_df.apply(movie_rating, axis=1)
 # df = df.apply(count_num_words, axis=1)
 # df = df.apply(count_num_chars, axis=1)
 # distinct_df = distinct_df[df.contains_director_features != 'Tina']

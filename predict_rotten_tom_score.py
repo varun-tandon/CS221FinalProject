@@ -7,6 +7,8 @@ from sklearn.ensemble import BaggingClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.ensemble import ExtraTreesClassifier
 from sklearn.ensemble import VotingClassifier
+from sklearn import preprocessing
+from sklearn.naive_bayes import GaussianNB
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.feature_extraction import DictVectorizer
@@ -21,10 +23,10 @@ import random
 from imblearn.over_sampling import SMOTE
 
 def bool_to_int(x):
-    return 1 if x else 0
+    return 1 if x == 'Fresh' or x == 'Certified Fresh' else 0
 
 df = pd.read_csv('data_parsed_contains_word_features.csv')
-df['y'] = df['IsProfitable'].apply(bool_to_int)
+df['y'] = df['tomatometer_status'].apply(bool_to_int)
 
 features = [
     'contains_director_features', 
@@ -32,7 +34,8 @@ features = [
     'contains_cast_features', 
     'runtime_features', 
     'movie_title_features',
-    'movie_rating_features'
+    'movie_rating_features',
+    'movie_desc_features'
 ]
 examples_list = []
 for feature in features:
@@ -47,19 +50,23 @@ for feature in features:
 v = DictVectorizer()
 X = v.fit_transform(examples_list)
 y = df['y'].to_numpy()
+print(X.shape)
 
 # sm = SMOTE()
 # X, y = sm.fit_resample(X, y)
-# X = X.toarray()
+X = X.toarray()
+
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1)
 
 classifiers = [
-    RandomForestClassifier(n_estimators=100, n_jobs=-1, random_state=1),
-    KNeighborsClassifier(n_neighbors=3, n_jobs=-1),
+    # RandomForestClassifier(n_estimators=100, n_jobs=-1, random_state=1),
+    # KNeighborsClassifier(n_neighbors=3, n_jobs=-1),
     LogisticRegression(solver='lbfgs', max_iter=1000, random_state=1),
-    ExtraTreesClassifier(n_estimators=100, max_depth=None, n_jobs=-1, random_state=1),
-    svm.SVC(gamma='scale'),
+    MLPClassifier(hidden_layer_sizes=(80000, 10000, 5000, 2000, 500, 100, 50, 10))
+    # ExtraTreesClassifier(n_estimators=100, max_depth=None, n_jobs=-1, random_state=1),
+    # svm.SVC(kernel='linear'),
+    # GaussianNB()
 ]
 
 for clf in classifiers:
