@@ -33,5 +33,4 @@ clf.fit(X_train, y_train)
 #predicitng
 y_est = clf.predict(X_test)
 
-
 accuracy = accuracy_score(y_test, y_est)
