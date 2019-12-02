@@ -64,15 +64,15 @@ classifiers = [
     # KNeighborsClassifier(n_neighbors=4, n_jobs=-1),
     # KNeighborsClassifier(n_neighbors=3, n_jobs=-1),
     # KNeighborsClassifier(n_neighbors=5, n_jobs=-1),
-    KNeighborsClassifier(n_neighbors=115, n_jobs=-1),
-    KNeighborsClassifier(n_neighbors=125, n_jobs=-1),
-    KNeighborsClassifier(n_neighbors=135, n_jobs=-1),
-    KNeighborsClassifier(n_neighbors=145, n_jobs=-1),
-    KNeighborsClassifier(n_neighbors=155, n_jobs=-1),
-    KNeighborsClassifier(n_neighbors=165, n_jobs=-1),
-    KNeighborsClassifier(n_neighbors=175, n_jobs=-1),
-    KNeighborsClassifier(n_neighbors=185, n_jobs=-1),
-    KNeighborsClassifier(n_neighbors=195, n_jobs=-1),
+    KNeighborsClassifier(n_neighbors=215, n_jobs=-1),
+    KNeighborsClassifier(n_neighbors=225, n_jobs=-1),
+    KNeighborsClassifier(n_neighbors=235, n_jobs=-1),
+    KNeighborsClassifier(n_neighbors=245, n_jobs=-1),
+    KNeighborsClassifier(n_neighbors=255, n_jobs=-1),
+    KNeighborsClassifier(n_neighbors=265, n_jobs=-1),
+    KNeighborsClassifier(n_neighbors=275, n_jobs=-1),
+    KNeighborsClassifier(n_neighbors=285, n_jobs=-1),
+    KNeighborsClassifier(n_neighbors=295, n_jobs=-1),
     # KNeighborsClassifier(n_neighbors=20, n_jobs=-1),
     # KNeighborsClassifier(n_neighbors=25, n_jobs=-1),
     # LinearSVC(max_iter=1000),
@@ -112,6 +112,36 @@ TN: 251. FP: 237. FN: 151. TP: 283
 Accuracy: 0.5770065075921909. F1: 0.5903361344537816. ROC AUC: 0.5809048500415502.
 TN: 251. FP: 237. FN: 153. TP: 281
 --------------
+--------------115
+Accuracy: 0.5802603036876356. F1: 0.5964546402502608. ROC AUC: 0.5846160383772758.
+TN: 249. FP: 239. FN: 148. TP: 286
+--------------
+Accuracy: 0.5813449023861171. F1: 0.5953878406708596. ROC AUC: 0.5853856614036413.
+TN: 252. FP: 236. FN: 150. TP: 284
+--------------
+Accuracy: 0.5726681127982647. F1: 0.5781584582441114. ROC AUC: 0.5754041701291833.
+TN: 258. FP: 230. FN: 164. TP: 270
+--------------
+Accuracy: 0.5780911062906724. F1: 0.5821697099892589. ROC AUC: 0.58065460451764.
+TN: 262. FP: 226. FN: 163. TP: 271
+--------------
+Accuracy: 0.571583514099783. F1: 0.572972972972973. ROC AUC: 0.5737421621213266.
+TN: 262. FP: 226. FN: 169. TP: 265
+--------------
+Accuracy: 0.5650759219088937. F1: 0.5683530678148547. ROC AUC: 0.5674671375689355.
+TN: 257. FP: 231. FN: 170. TP: 264
+--------------
+Accuracy: 0.5748373101952278. F1: 0.5802997858672377. ROC AUC: 0.5775808340258367.
+TN: 259. FP: 229. FN: 163. TP: 271
+--------------
+Accuracy: 0.5802603036876356. F1: 0.5816216216216217. ROC AUC: 0.5824488177079399.
+TN: 266. FP: 222. FN: 165. TP: 269
+--------------
+Accuracy: 0.579175704989154. F1: 0.5773420479302832. ROC AUC: 0.5809142932688676.
+TN: 269. FP: 219. FN: 169. TP: 265
+--------------
+Accuracy: 0.5813449023861171. F1: 0.5849462365591398. ROC AUC: 0.5838558585782276.
+TN: 264. FP: 224. FN: 162. TP: 272
 '''
 
 for clf in classifiers:
