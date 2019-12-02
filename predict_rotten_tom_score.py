@@ -64,15 +64,15 @@ classifiers = [
     # KNeighborsClassifier(n_neighbors=4, n_jobs=-1),
     # KNeighborsClassifier(n_neighbors=3, n_jobs=-1),
     # KNeighborsClassifier(n_neighbors=5, n_jobs=-1),
-    KNeighborsClassifier(n_neighbors=215, n_jobs=-1),
-    KNeighborsClassifier(n_neighbors=225, n_jobs=-1),
-    KNeighborsClassifier(n_neighbors=235, n_jobs=-1),
-    KNeighborsClassifier(n_neighbors=245, n_jobs=-1),
-    KNeighborsClassifier(n_neighbors=255, n_jobs=-1),
-    KNeighborsClassifier(n_neighbors=265, n_jobs=-1),
-    KNeighborsClassifier(n_neighbors=275, n_jobs=-1),
-    KNeighborsClassifier(n_neighbors=285, n_jobs=-1),
-    KNeighborsClassifier(n_neighbors=295, n_jobs=-1),
+    KNeighborsClassifier(n_neighbors=315, n_jobs=-1),
+    KNeighborsClassifier(n_neighbors=325, n_jobs=-1),
+    KNeighborsClassifier(n_neighbors=335, n_jobs=-1),
+    KNeighborsClassifier(n_neighbors=345, n_jobs=-1),
+    KNeighborsClassifier(n_neighbors=355, n_jobs=-1),
+    KNeighborsClassifier(n_neighbors=365, n_jobs=-1),
+    KNeighborsClassifier(n_neighbors=375, n_jobs=-1),
+    KNeighborsClassifier(n_neighbors=385, n_jobs=-1),
+    KNeighborsClassifier(n_neighbors=395, n_jobs=-1),
     # KNeighborsClassifier(n_neighbors=20, n_jobs=-1),
     # KNeighborsClassifier(n_neighbors=25, n_jobs=-1),
     # LinearSVC(max_iter=1000),
@@ -142,6 +142,35 @@ TN: 269. FP: 219. FN: 169. TP: 265
 --------------
 Accuracy: 0.5813449023861171. F1: 0.5849462365591398. ROC AUC: 0.5838558585782276.
 TN: 264. FP: 224. FN: 162. TP: 272
+--------------
+------------- 215
+Accuracy: 0.579175704989154. F1: 0.5717439293598233. ROC AUC: 0.5801493918561608.
+TN: 275. FP: 213. FN: 175. TP: 259
+--------------
+Accuracy: 0.5845986984815619. F1: 0.5701459034792369. ROC AUC: 0.5846349248319106.
+TN: 285. FP: 203. FN: 180. TP: 254
+--------------
+Accuracy: 0.5878524945770065. F1: 0.5701357466063349. ROC AUC: 0.5874537281861448.
+TN: 290. FP: 198. FN: 182. TP: 252
+--------------
+Accuracy: 0.586767895878525. F1: 0.5665529010238908. ROC AUC: 0.5860466873158571.
+TN: 292. FP: 196. FN: 185. TP: 249
+--------------
+Accuracy: 0.6008676789587852. F1: 0.5710955710955712. ROC AUC: 0.5988564251718668.
+TN: 309. FP: 179. FN: 189. TP: 245
+--------------
+Accuracy: 0.5900216919739696. F1: 0.5542452830188679. ROC AUC: 0.5873356878446778.
+TN: 309. FP: 179. FN: 199. TP: 235
+--------------
+Accuracy: 0.5976138828633406. F1: 0.5609467455621302. ROC AUC: 0.5947627861297877.
+TN: 314. FP: 174. FN: 197. TP: 237
+--------------
+Accuracy: 0.6030368763557483. F1: 0.5600961538461537. ROC AUC: 0.5993758026743219.
+TN: 323. FP: 165. FN: 201. TP: 233
+--------------
+Accuracy: 0.5878524945770065. F1: 0.5343137254901961. ROC AUC: 0.5831192868474729.
+TN: 324. FP: 164. FN: 216. TP: 218
+--------------
 '''
 
 for clf in classifiers:
@@ -157,22 +186,22 @@ for clf in classifiers:
     print("Accuracy: {}. F1: {}. ROC AUC: {}.".format(accuracy, f1, roc))
     print("TN: {}. FP: {}. FN: {}. TP: {}".format(tn, fp, fn, tp))
 
-estimators = []
-i = 0
-for clf in classifiers:
-    estimators.append((str(i), clf))
-    i += 1
+# estimators = []
+# i = 0
+# for clf in classifiers:
+#     estimators.append((str(i), clf))
+#     i += 1
 
-clf = VotingClassifier(estimators, n_jobs=-1)
-print("--------------")
-clf.fit(X_train, y_train)
-y_pred = clf.predict(X_test)
+# clf = VotingClassifier(estimators, n_jobs=-1)
+# print("--------------")
+# clf.fit(X_train, y_train)
+# y_pred = clf.predict(X_test)
 
-accuracy = accuracy_score(y_test, y_pred)
-f1 = f1_score(y_test, y_pred)
-roc = roc_auc_score(y_test, y_pred)
-tn, fp, fn, tp = confusion_matrix(y_test, y_pred).ravel()
+# accuracy = accuracy_score(y_test, y_pred)
+# f1 = f1_score(y_test, y_pred)
+# roc = roc_auc_score(y_test, y_pred)
+# tn, fp, fn, tp = confusion_matrix(y_test, y_pred).ravel()
 
-print("Accuracy: {}. F1: {}. ROC AUC: {}.".format(accuracy, f1, roc))
-print("TN: {}. FP: {}. FN: {}. TP: {}".format(tn, fp, fn, tp))
+# print("Accuracy: {}. F1: {}. ROC AUC: {}.".format(accuracy, f1, roc))
+# print("TN: {}. FP: {}. FN: {}. TP: {}".format(tn, fp, fn, tp))
 # print(clf.coef_)
