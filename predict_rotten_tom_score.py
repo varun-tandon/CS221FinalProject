@@ -60,15 +60,59 @@ X = X.toarray()
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1)
 
 classifiers = [
-    LogisticRegression(solver='lbfgs', max_iter=1000, random_state=1, n_jobs=-1, verbose=True),
-    KNeighborsClassifier(n_neighbors=3, n_jobs=-1),
-    LinearSVC(max_iter=1000),
-    svm.SVC(gamma='scale'),
-    BaggingClassifier(LogisticRegression(solver='lbfgs', max_iter=1000, random_state=1), n_jobs=-1),
-    RandomForestClassifier(n_estimators=100, n_jobs=-1, random_state=1),
-    GaussianNB(),
-    MLPClassifier(hidden_layer_sizes=(100, 50, 10), early_stopping=True),
+    # LogisticRegression(solver='lbfgs', max_iter=1000, random_state=1, n_jobs=-1, verbose=True),
+    # KNeighborsClassifier(n_neighbors=4, n_jobs=-1),
+    # KNeighborsClassifier(n_neighbors=3, n_jobs=-1),
+    # KNeighborsClassifier(n_neighbors=5, n_jobs=-1),
+    KNeighborsClassifier(n_neighbors=115, n_jobs=-1),
+    KNeighborsClassifier(n_neighbors=125, n_jobs=-1),
+    KNeighborsClassifier(n_neighbors=135, n_jobs=-1),
+    KNeighborsClassifier(n_neighbors=145, n_jobs=-1),
+    KNeighborsClassifier(n_neighbors=155, n_jobs=-1),
+    KNeighborsClassifier(n_neighbors=165, n_jobs=-1),
+    KNeighborsClassifier(n_neighbors=175, n_jobs=-1),
+    KNeighborsClassifier(n_neighbors=185, n_jobs=-1),
+    KNeighborsClassifier(n_neighbors=195, n_jobs=-1),
+    # KNeighborsClassifier(n_neighbors=20, n_jobs=-1),
+    # KNeighborsClassifier(n_neighbors=25, n_jobs=-1),
+    # LinearSVC(max_iter=1000),
+    # svm.SVC(gamma='scale'),
+    # BaggingClassifier(LogisticRegression(solver='lbfgs', max_iter=1000, random_state=1), n_jobs=-1),
+    # RandomForestClassifier(n_estimators=100, n_jobs=-1, random_state=1),
+    # GaussianNB(),
+    # MLPClassifier(hidden_layer_sizes=(100, 50, 10), early_stopping=True),
 ]
+
+'''
+--------------
+Accuracy: 0.5032537960954447. F1: 0.5873873873873874. ROC AUC: 0.5169694794893103.
+TN: 138. FP: 350. FN: 108. TP: 326
+--------------
+Accuracy: 0.53470715835141. F1: 0.5994397759103641. ROC AUC: 0.5460451763994862.
+TN: 172. FP: 316. FN: 113. TP: 321
+--------------
+Accuracy: 0.5466377440347071. F1: 0.6172161172161172. ROC AUC: 0.5593554053033165.
+TN: 167. FP: 321. FN: 97. TP: 337
+--------------
+Accuracy: 0.5509761388286334. F1: 0.6049618320610687. ROC AUC: 0.5609040945833648.
+TN: 191. FP: 297. FN: 117. TP: 317
+--------------
+Accuracy: 0.5759219088937093. F1: 0.6109452736318408. ROC AUC: 0.5831948326660119.
+TN: 224. FP: 264. FN: 127. TP: 307
+--------------
+Accuracy: 0.5856832971800434. F1: 0.6069958847736626. ROC AUC: 0.5908863413160081.
+TN: 245. FP: 243. FN: 139. TP: 295
+--------------
+Accuracy: 0.5683297180043384. F1: 0.5871369294605809. ROC AUC: 0.5729630958676437.
+TN: 241. FP: 247. FN: 151. TP: 283
+--------------
+Accuracy: 0.579175704989154. F1: 0.5932914046121593. ROC AUC: 0.5832089975069881.
+TN: 251. FP: 237. FN: 151. TP: 283
+--------------
+Accuracy: 0.5770065075921909. F1: 0.5903361344537816. ROC AUC: 0.5809048500415502.
+TN: 251. FP: 237. FN: 153. TP: 281
+--------------
+'''
 
 for clf in classifiers:
     print("--------------")
