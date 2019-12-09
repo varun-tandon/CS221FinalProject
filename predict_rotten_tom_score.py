@@ -18,6 +18,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.metrics import f1_score
 from sklearn.metrics import confusion_matrix
 import pandas as pd
+import pickle
 import json
 import random
 from imblearn.over_sampling import SMOTE
@@ -196,7 +197,7 @@ for clf in classifiers:
     print("TN: {}. FP: {}. FN: {}. TP: {}".format(tn, fp, fn, tp))
 
     with open('coefficients.txt', 'w') as f:
-        f.write(str(clf.coef_))
+        pickle.dump(clf.coef_)
 
 # estimators = []
 # i = 0
