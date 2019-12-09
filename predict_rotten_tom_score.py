@@ -60,7 +60,7 @@ X = X.toarray()
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1)
 
 classifiers = [
-    LogisticRegression(solver='sag', max_iter=1000, random_state=1, n_jobs=-1, verbose=True),
+    LogisticRegression(solver='saga', max_iter=1500, random_state=1, n_jobs=-1, verbose=True),
     # KNeighborsClassifier(n_neighbors=4, n_jobs=-1),
     # KNeighborsClassifier(n_neighbors=3, n_jobs=-1),
     # KNeighborsClassifier(n_neighbors=5, n_jobs=-1),
@@ -86,7 +86,7 @@ classifiers = [
     # KNeighborsClassifier(n_neighbors=25, n_jobs=-1),
     # LinearSVC(max_iter=1000),
     # svm.SVC(gamma='scale'),
-    BaggingClassifier(LogisticRegression(solver='sag', max_iter=1000, random_state=1, verbose=True), n_jobs=-1),
+     #BaggingClassifier(LogisticRegression(solver='sag', max_iter=1000, random_state=1, verbose=True), n_jobs=-1),
     # RandomForestClassifier(n_estimators=100, n_jobs=-1, random_state=1),
     # GaussianNB(),
     # MLPClassifier(hidden_layer_sizes=(100, 50, 10), early_stopping=True),
