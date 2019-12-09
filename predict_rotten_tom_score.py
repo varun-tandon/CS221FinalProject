@@ -195,6 +195,9 @@ for clf in classifiers:
     print("Accuracy: {}. F1: {}. ROC AUC: {}.".format(accuracy, f1, roc))
     print("TN: {}. FP: {}. FN: {}. TP: {}".format(tn, fp, fn, tp))
 
+    with open('coefficients.txt', 'w') as f:
+        f.write(str(clf.coef_))
+
 # estimators = []
 # i = 0
 # for clf in classifiers:
