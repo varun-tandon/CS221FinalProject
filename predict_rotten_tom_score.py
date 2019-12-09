@@ -48,6 +48,17 @@ for feature in features:
         for i in range(len(examples)):
             examples_list[i].update(json.loads(examples[i]))
 
+import pickle
+important_features = set(pickle.load(open('important_features.pkl', 'rb')))
+print(len(important_features))
+input()
+for example in examples_list:
+    for key in list(example):
+        if key not in important_features:
+            del example[key]
+
+pickle.dump(examples_list, open('examples_w_important_feats_only.pkl', 'wb'))
+
 v = DictVectorizer()
 X = v.fit_transform(examples_list)
 y = df['y'].to_numpy()
@@ -61,7 +72,7 @@ X = X.toarray()
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1)
 
 classifiers = [
-    LogisticRegression(solver='saga', max_iter=1500, random_state=1, n_jobs=-1, verbose=True),
+    LogisticRegression(solver='saga', max_iter=3000, random_state=1, n_jobs=-1, verbose=True),
     # KNeighborsClassifier(n_neighbors=4, n_jobs=-1),
     # KNeighborsClassifier(n_neighbors=3, n_jobs=-1),
     # KNeighborsClassifier(n_neighbors=5, n_jobs=-1),
@@ -195,9 +206,6 @@ for clf in classifiers:
 
     print("Accuracy: {}. F1: {}. ROC AUC: {}.".format(accuracy, f1, roc))
     print("TN: {}. FP: {}. FN: {}. TP: {}".format(tn, fp, fn, tp))
-
-    with open('coefficients.txt', 'w') as f:
-        pickle.dump(clf.coef_)
 
 # estimators = []
 # i = 0
