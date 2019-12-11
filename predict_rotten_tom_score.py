@@ -22,6 +22,7 @@ import pickle
 import json
 import random
 from imblearn.over_sampling import SMOTE
+from sklearn.model_selection import cross_val_score
 
 def bool_to_int(x):
     return 1 if x == 'Fresh' or x == 'Certified Fresh' else 0
@@ -72,7 +73,7 @@ X = X.toarray()
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1)
 
 classifiers = [
-    LogisticRegression(solver='saga', max_iter=3000, random_state=1, n_jobs=-1, verbose=True),
+    #LogisticRegression(solver='saga', max_iter=3000, random_state=1, n_jobs=-1, verbose=True),
     # KNeighborsClassifier(n_neighbors=4, n_jobs=-1),
     # KNeighborsClassifier(n_neighbors=3, n_jobs=-1),
     # KNeighborsClassifier(n_neighbors=5, n_jobs=-1),
@@ -103,6 +104,17 @@ classifiers = [
     # GaussianNB(),
     # MLPClassifier(hidden_layer_sizes=(100, 50, 10), early_stopping=True),
 ]
+
+#cross validation
+
+
+#logistic regression
+for c in range(1, 20, 3):
+    model = LogisticRegression(C = (c/10), solver='saga', max_iter=3000, random_state=1, n_jobs=-1, verbose=True)
+    scores = cross_val_score(model, X_train, y_train, cv=5)
+    print(f'C: {c/10}, score: {mean(scores)}')
+
+
 
 '''
 --------------
