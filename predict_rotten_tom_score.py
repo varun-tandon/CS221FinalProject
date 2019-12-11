@@ -110,9 +110,10 @@ classifiers = [
 
 #logistic regression
 for c in range(1, 20, 3):
+    print('testing C value:', c/10)
     model = LogisticRegression(C = (c/10), solver='saga', max_iter=3000, random_state=1, n_jobs=-1, verbose=True)
     scores = cross_val_score(model, X_train, y_train, cv=5)
-    print(f'C: {c/10}, score: {mean(scores)}')
+    print('C:', (c/10), 'score:', sum(scores) / len(scores))
 
 
 
