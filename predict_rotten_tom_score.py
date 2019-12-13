@@ -105,15 +105,20 @@ classifiers = [
     # MLPClassifier(hidden_layer_sizes=(100, 50, 10), early_stopping=True),
 ]
 
-#cross validation
-
-
-#logistic regression
-for c in range(1, 20, 3):
+#cross validation of logistic regression
+prev_score = float('-Inf')
+final_c = 1
+for c in range(1, 11, 1):
     print('testing C value:', c/10)
     model = LogisticRegression(C = (c/10), solver='saga', max_iter=3000, random_state=1, n_jobs=-1, verbose=True)
     scores = cross_val_score(model, X_train, y_train, cv=5)
-    print('C:', (c/10), 'score:', sum(scores) / len(scores))
+    the_c = c/10
+    score = sum(scores) / len(scores)
+    if score > prev_score:
+        prev_score = score
+        final_c = the_c
+    
+
 
 
 
