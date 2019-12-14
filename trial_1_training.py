@@ -10,12 +10,14 @@ from sklearn.ensemble import VotingClassifier
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.naive_bayes import GaussianNB
+from sklearn.naive_bayes import BernoulliNB
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import roc_auc_score
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import f1_score
 from sklearn.metrics import confusion_matrix
+from imblearn.under_sampling import RandomUnderSampler
 import pandas as pd
 import json
 import random
@@ -32,7 +34,7 @@ features = [
     'genre_features', 
     'contains_cast_features', 
     'runtime_features', 
-    'movie_title_features',
+    # 'movie_title_features',
     'movie_rating_features'
 ]
 examples_list = []
@@ -49,21 +51,24 @@ v = DictVectorizer()
 X = v.fit_transform(examples_list)
 y = df['y'].to_numpy()
 
+rus = RandomUnderSampler(random_state=42)
+X, y = rus.fit_resample(X, y)
 # sm = SMOTE()
 # X, y = sm.fit_resample(X, y)
 # X = X.toarray()
-
+print(X.shape)
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1)
 
 classifiers = [
     LogisticRegression(solver='lbfgs', max_iter=1000, random_state=1),
-    KNeighborsClassifier(n_neighbors=3, n_jobs=-1),
+    KNeighborsClassifier(n_neighbors=285, n_jobs=-1),
     LinearSVC(max_iter=1000),
-    svm.SVC(gamma='scale'),
-    BaggingClassifier(LogisticRegression(solver='lbfgs', max_iter=1000, random_state=1), n_jobs=-1),
-    RandomForestClassifier(n_estimators=100, n_jobs=-1, random_state=1),
-    MLPClassifier(hidden_layer_sizes=(100, 50, 10), early_stopping=True),
-    GaussianNB()
+    BernoulliNB(),
+    # svm.SVC(gamma='scale'),
+    # BaggingClassifier(LogisticRegression(solver='lbfgs', max_iter=1000, random_state=1), n_jobs=-1),
+    RandomForestClassifier(n_estimators=10, n_jobs=-1, random_state=1),
+    # MLPClassifier(hidden_layer_sizes=(100, 50, 10), early_stopping=True),
+    
 ]
 
 for clf in classifiers:
