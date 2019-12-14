@@ -1,0 +1,401 @@
+(1382, 36917)
+--------------
+BernoulliN
+genre_action_and_adventure
+--------------
+Accuracy: 0.5740072202166066. F1: 0.16901408450704225. ROC AUC: 0.5287792536369387.
+TN: 147. FP: 6. FN: 112. TP: 12
+--------------
+LogisticRe
+genre_action_and_adventure
+--------------
+/Users/varuntandon/Github/CS221FinalProject/221venv/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:931: ConvergenceWarning: lbfgs failed to converge (status=1): b'STOP: TOTAL NO. of ITERATIONS REACHED LIMIT'. Increase the number of iterations.
+  n_iter_i = _check_optimize_result(solver, opt_res, max_iter)
+Accuracy: 0.6714801444043321. F1: 0.5727699530516432. ROC AUC: 0.6544644739616277.
+TN: 125. FP: 28. FN: 63. TP: 61
+(241, 4238)
+--------------
+BernoulliN
+genre_animation
+--------------
+Accuracy: 0.7346938775510204. F1: 0.8395061728395062. ROC AUC: 0.5571428571428572.
+TN: 2. FP: 12. FN: 1. TP: 34
+--------------
+LogisticRe
+genre_animation
+--------------
+/Users/varuntandon/Github/CS221FinalProject/221venv/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:931: ConvergenceWarning: lbfgs failed to converge (status=1): b'STOP: TOTAL NO. of ITERATIONS REACHED LIMIT'. Increase the number of iterations.
+  n_iter_i = _check_optimize_result(solver, opt_res, max_iter)
+Accuracy: 0.6530612244897959. F1: 0.7536231884057971. ROC AUC: 0.5857142857142857.
+TN: 6. FP: 8. FN: 9. TP: 26
+(1, 19)
+THIS CATEGORY IS TOO SMALL genre_anime_and_manga
+(214, 5558)
+--------------
+BernoulliN
+genre_arthouse_and_international
+--------------
+Accuracy: 0.627906976744186. F1: 0.7647058823529411. ROC AUC: 0.4839901477832512.
+TN: 1. FP: 13. FN: 3. TP: 26
+--------------
+LogisticRe
+genre_arthouse_and_international
+--------------
+/Users/varuntandon/Github/CS221FinalProject/221venv/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:931: ConvergenceWarning: lbfgs failed to converge (status=1): b'STOP: TOTAL NO. of ITERATIONS REACHED LIMIT'. Increase the number of iterations.
+  n_iter_i = _check_optimize_result(solver, opt_res, max_iter)
+Accuracy: 0.6976744186046512. F1: 0.8169014084507042. ROC AUC: 0.5357142857142857.
+TN: 1. FP: 13. FN: 0. TP: 29
+(243, 7453)
+--------------
+BernoulliN
+genre_classics
+--------------
+Accuracy: 0.7346938775510204. F1: 0.8470588235294116. ROC AUC: 0.47368421052631576.
+TN: 0. FP: 11. FN: 2. TP: 36
+--------------
+LogisticRe
+genre_classics
+--------------
+/Users/varuntandon/Github/CS221FinalProject/221venv/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:931: ConvergenceWarning: lbfgs failed to converge (status=1): b'STOP: TOTAL NO. of ITERATIONS REACHED LIMIT'. Increase the number of iterations.
+  n_iter_i = _check_optimize_result(solver, opt_res, max_iter)
+Accuracy: 0.7755102040816326. F1: 0.8735632183908045. ROC AUC: 0.5.
+TN: 0. FP: 11. FN: 0. TP: 38
+(1729, 43994)
+--------------
+BernoulliN
+genre_comedy
+--------------
+Accuracy: 0.615606936416185. F1: 0.2887700534759358. ROC AUC: 0.5574657534246575.
+TN: 186. FP: 14. FN: 119. TP: 27
+--------------
+LogisticRe
+genre_comedy
+--------------
+/Users/varuntandon/Github/CS221FinalProject/221venv/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:931: ConvergenceWarning: lbfgs failed to converge (status=1): b'STOP: TOTAL NO. of ITERATIONS REACHED LIMIT'. Increase the number of iterations.
+  n_iter_i = _check_optimize_result(solver, opt_res, max_iter)
+Accuracy: 0.7283236994219653. F1: 0.6492537313432837. ROC AUC: 0.710445205479452.
+TN: 165. FP: 35. FN: 59. TP: 87
+(20, 775)
+--------------
+BernoulliN
+genre_cultmovies
+--------------
+Accuracy: 0.25. F1: 0.0. ROC AUC: 0.5.
+TN: 1. FP: 0. FN: 3. TP: 0
+--------------
+LogisticRe
+genre_cultmovies
+--------------
+Accuracy: 0.5. F1: 0.5. ROC AUC: 0.6666666666666666.
+TN: 1. FP: 0. FN: 2. TP: 1
+(116, 2210)
+--------------
+BernoulliN
+genre_documentary
+--------------
+Accuracy: 0.8333333333333334. F1: 0.9047619047619048. ROC AUC: 0.6.
+TN: 1. FP: 3. FN: 1. TP: 19
+--------------
+LogisticRe
+genre_documentary
+--------------
+/Users/varuntandon/Github/CS221FinalProject/221venv/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:931: ConvergenceWarning: lbfgs failed to converge (status=1): b'STOP: TOTAL NO. of ITERATIONS REACHED LIMIT'. Increase the number of iterations.
+  n_iter_i = _check_optimize_result(solver, opt_res, max_iter)
+Accuracy: 0.8333333333333334. F1: 0.9090909090909091. ROC AUC: 0.5.
+TN: 0. FP: 4. FN: 0. TP: 20
+(2411, 59417)
+--------------
+BernoulliN
+genre_drama
+--------------
+Accuracy: 0.5755693581780539. F1: 0.6998535871156663. ROC AUC: 0.5391098714528256.
+TN: 39. FP: 178. FN: 27. TP: 239
+--------------
+LogisticRe
+genre_drama
+--------------
+^[[A
+/Users/varuntandon/Github/CS221FinalProject/221venv/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:931: ConvergenceWarning: lbfgs failed to converge (status=1): b'STOP: TOTAL NO. of ITERATIONS REACHED LIMIT'. Increase the number of iterations.
+  n_iter_i = _check_optimize_result(solver, opt_res, max_iter)
+Accuracy: 0.650103519668737. F1: 0.689908256880734. ROC AUC: 0.6437060392917777.
+TN: 126. FP: 91. FN: 78. TP: 188
+(22, 716)
+--------------
+BernoulliN
+genre_faith_and_spirituality
+--------------
+Accuracy: 0.6. F1: 0.0. ROC AUC: 0.5.
+TN: 3. FP: 0. FN: 2. TP: 0
+--------------
+LogisticRe
+genre_faith_and_spirituality
+--------------
+/Users/varuntandon/Github/CS221FinalProject/221venv/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:931: ConvergenceWarning: lbfgs failed to converge (status=1): b'STOP: TOTAL NO. of ITERATIONS REACHED LIMIT'. Increase the number of iterations.
+  n_iter_i = _check_optimize_result(solver, opt_res, max_iter)
+Accuracy: 0.6. F1: 0.0. ROC AUC: 0.5.
+TN: 3. FP: 0. FN: 2. TP: 0
+(7, 280)
+--------------
+BernoulliN
+genre_gay_and_lesbian
+--------------
+Traceback (most recent call last):
+  File "stratified_analysis.py", line 143, in <module>
+    accuracy = accuracy_score(y_test, y_pred)
+  File "/Users/varuntandon/Github/CS221FinalProject/221venv/lib/python3.8/site-packages/sklearn/metrics/_ranking.py", line 367, in roc_auc_score
+    return _average_binary_score(partial(_binary_roc_auc_score,
+  File "/Users/varuntandon/Github/CS221FinalProject/221venv/lib/python3.8/site-packages/sklearn/metrics/_base.py", line 77, in _average_binary_score
+    return binary_metric(y_true, y_score, sample_weight=sample_weight)
+  File "/Users/varuntandon/Github/CS221FinalProject/221venv/lib/python3.8/site-packages/sklearn/metrics/_ranking.py", line 221, in _binary_roc_auc_score
+    raise ValueError("Only one class present in y_true. ROC AUC score "
+ValueError: Only one class present in y_true. ROC AUC score is not defined in that case.
+(221venv) Varun:CS221FinalProject varuntandon$ python3 stratified_analysis.py 
+/Users/varuntandon/Github/CS221FinalProject/221venv/lib/python3.8/site-packages/sklearn/utils/deprecation.py:144: FutureWarning: The sklearn.neighbors.base module is  deprecated in version 0.22 and will be removed in version 0.24. The corresponding classes / functions should instead be imported from sklearn.neighbors. Anything that cannot be imported from sklearn.neighbors is now part of the private API.
+  warnings.warn(message, FutureWarning)
+/Users/varuntandon/Github/CS221FinalProject/221venv/lib/python3.8/site-packages/sklearn/utils/deprecation.py:144: FutureWarning: The sklearn.ensemble.bagging module is  deprecated in version 0.22 and will be removed in version 0.24. The corresponding classes / functions should instead be imported from sklearn.ensemble. Anything that cannot be imported from sklearn.ensemble is now part of the private API.
+  warnings.warn(message, FutureWarning)
+/Users/varuntandon/Github/CS221FinalProject/221venv/lib/python3.8/site-packages/sklearn/utils/deprecation.py:144: FutureWarning: The sklearn.ensemble.base module is  deprecated in version 0.22 and will be removed in version 0.24. The corresponding classes / functions should instead be imported from sklearn.ensemble. Anything that cannot be imported from sklearn.ensemble is now part of the private API.
+  warnings.warn(message, FutureWarning)
+/Users/varuntandon/Github/CS221FinalProject/221venv/lib/python3.8/site-packages/sklearn/utils/deprecation.py:144: FutureWarning: The sklearn.ensemble.forest module is  deprecated in version 0.22 and will be removed in version 0.24. The corresponding classes / functions should instead be imported from sklearn.ensemble. Anything that cannot be imported from sklearn.ensemble is now part of the private API.
+  warnings.warn(message, FutureWarning)
+/Users/varuntandon/Github/CS221FinalProject/221venv/lib/python3.8/site-packages/sklearn/utils/deprecation.py:144: FutureWarning: The sklearn.utils.testing module is  deprecated in version 0.22 and will be removed in version 0.24. The corresponding classes / functions should instead be imported from sklearn.utils. Anything that cannot be imported from sklearn.utils is now part of the private API.
+  warnings.warn(message, FutureWarning)
+/Users/varuntandon/Github/CS221FinalProject/221venv/lib/python3.8/site-packages/sklearn/utils/deprecation.py:144: FutureWarning: The sklearn.metrics.classification module is  deprecated in version 0.22 and will be removed in version 0.24. The corresponding classes / functions should instead be imported from sklearn.metrics. Anything that cannot be imported from sklearn.metrics is now part of the private API.
+  warnings.warn(message, FutureWarning)
+(1382, 36917)
+--------------
+BernoulliN
+genre_action_and_adventure
+--------------
+Accuracy: 0.5740072202166066. F1: 0.16901408450704225. ROC AUC: 0.5287792536369387.
+TN: 147. FP: 6. FN: 112. TP: 12
+--------------
+LogisticRe
+genre_action_and_adventure
+--------------
+/Users/varuntandon/Github/CS221FinalProject/221venv/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:931: ConvergenceWarning: lbfgs failed to converge (status=1): b'STOP: TOTAL NO. of ITERATIONS REACHED LIMIT'. Increase the number of iterations.
+  n_iter_i = _check_optimize_result(solver, opt_res, max_iter)
+Accuracy: 0.6678700361010831. F1: 0.5700934579439253. ROC AUC: 0.6511965001054185.
+TN: 124. FP: 29. FN: 63. TP: 61
+--------------
+RandomFore
+genre_action_and_adventure
+--------------
+Accuracy: 0.5992779783393501. F1: 0.3431952662721893. ROC AUC: 0.5646479021716214.
+TN: 137. FP: 16. FN: 95. TP: 29
+--------------
+MLPClassif
+genre_action_and_adventure
+--------------
+Accuracy: 0.6389891696750902. F1: 0.5689655172413792. ROC AUC: 0.6288741302972802.
+TN: 111. FP: 42. FN: 58. TP: 66
+(241, 4238)
+--------------
+BernoulliN
+genre_animation
+--------------
+Accuracy: 0.7346938775510204. F1: 0.8395061728395062. ROC AUC: 0.5571428571428572.
+TN: 2. FP: 12. FN: 1. TP: 34
+--------------
+LogisticRe
+genre_animation
+--------------
+Accuracy: 0.6530612244897959. F1: 0.7536231884057971. ROC AUC: 0.5857142857142857.
+TN: 6. FP: 8. FN: 9. TP: 26
+--------------
+RandomFore
+genre_animation
+--------------
+Accuracy: 0.7142857142857143. F1: 0.8205128205128205. ROC AUC: 0.5642857142857143.
+TN: 3. FP: 11. FN: 3. TP: 32
+--------------
+MLPClassif
+genre_animation
+--------------
+Accuracy: 0.6530612244897959. F1: 0.7792207792207793. ROC AUC: 0.5.
+TN: 2. FP: 12. FN: 5. TP: 30
+(1, 19)
+THIS CATEGORY IS TOO SMALL genre_anime_and_manga
+(214, 5558)
+--------------
+BernoulliN
+genre_arthouse_and_international
+--------------
+Accuracy: 0.627906976744186. F1: 0.7647058823529411. ROC AUC: 0.4839901477832512.
+TN: 1. FP: 13. FN: 3. TP: 26
+--------------
+LogisticRe
+genre_arthouse_and_international
+--------------
+/Users/varuntandon/Github/CS221FinalProject/221venv/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:931: ConvergenceWarning: lbfgs failed to converge (status=1): b'STOP: TOTAL NO. of ITERATIONS REACHED LIMIT'. Increase the number of iterations.
+  n_iter_i = _check_optimize_result(solver, opt_res, max_iter)
+Accuracy: 0.6976744186046512. F1: 0.8169014084507042. ROC AUC: 0.5357142857142857.
+TN: 1. FP: 13. FN: 0. TP: 29
+--------------
+RandomFore
+genre_arthouse_and_international
+--------------
+Accuracy: 0.6744186046511628. F1: 0.8055555555555556. ROC AUC: 0.5.
+TN: 0. FP: 14. FN: 0. TP: 29
+--------------
+MLPClassif
+genre_arthouse_and_international
+--------------
+Accuracy: 0.32558139534883723. F1: 0.0. ROC AUC: 0.5.
+TN: 14. FP: 0. FN: 29. TP: 0
+(243, 7453)
+--------------
+BernoulliN
+genre_classics
+--------------
+Accuracy: 0.7346938775510204. F1: 0.8470588235294116. ROC AUC: 0.47368421052631576.
+TN: 0. FP: 11. FN: 2. TP: 36
+--------------
+LogisticRe
+genre_classics
+--------------
+Accuracy: 0.7755102040816326. F1: 0.8735632183908045. ROC AUC: 0.5.
+TN: 0. FP: 11. FN: 0. TP: 38
+--------------
+RandomFore
+genre_classics
+--------------
+Accuracy: 0.7755102040816326. F1: 0.8735632183908045. ROC AUC: 0.5.
+TN: 0. FP: 11. FN: 0. TP: 38
+--------------
+MLPClassif
+genre_classics
+--------------
+Accuracy: 0.7755102040816326. F1: 0.8735632183908045. ROC AUC: 0.5.
+TN: 0. FP: 11. FN: 0. TP: 38
+(1729, 43994)
+--------------
+BernoulliN
+genre_comedy
+--------------
+Accuracy: 0.615606936416185. F1: 0.2887700534759358. ROC AUC: 0.5574657534246575.
+TN: 186. FP: 14. FN: 119. TP: 27
+--------------
+LogisticRe
+genre_comedy
+--------------
+/Users/varuntandon/Github/CS221FinalProject/221venv/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:931: ConvergenceWarning: lbfgs failed to converge (status=1): b'STOP: TOTAL NO. of ITERATIONS REACHED LIMIT'. Increase the number of iterations.
+  n_iter_i = _check_optimize_result(solver, opt_res, max_iter)
+Accuracy: 0.7312138728323699. F1: 0.654275092936803. ROC AUC: 0.7138698630136986.
+TN: 165. FP: 35. FN: 58. TP: 88
+--------------
+RandomFore
+genre_comedy
+--------------
+Accuracy: 0.6213872832369942. F1: 0.2681564245810056. ROC AUC: 0.5596917808219178.
+TN: 191. FP: 9. FN: 122. TP: 24
+--------------
+MLPClassif
+genre_comedy
+--------------
+Accuracy: 0.6878612716763006. F1: 0.6275862068965518. ROC AUC: 0.6791438356164383.
+TN: 147. FP: 53. FN: 55. TP: 91
+(20, 775)
+--------------
+BernoulliN
+genre_cultmovies
+--------------
+Accuracy: 0.25. F1: 0.0. ROC AUC: 0.5.
+TN: 1. FP: 0. FN: 3. TP: 0
+--------------
+LogisticRe
+genre_cultmovies
+--------------
+Accuracy: 0.5. F1: 0.5. ROC AUC: 0.6666666666666666.
+TN: 1. FP: 0. FN: 2. TP: 1
+--------------
+RandomFore
+genre_cultmovies
+--------------
+Accuracy: 0.75. F1: 0.8571428571428571. ROC AUC: 0.5.
+TN: 0. FP: 1. FN: 0. TP: 3
+--------------
+MLPClassif
+genre_cultmovies
+--------------
+Accuracy: 0.75. F1: 0.8571428571428571. ROC AUC: 0.5.
+TN: 0. FP: 1. FN: 0. TP: 3
+(116, 2210)
+--------------
+BernoulliN
+genre_documentary
+--------------
+Accuracy: 0.8333333333333334. F1: 0.9047619047619048. ROC AUC: 0.6.
+TN: 1. FP: 3. FN: 1. TP: 19
+--------------
+LogisticRe
+genre_documentary
+--------------
+Accuracy: 0.8333333333333334. F1: 0.9090909090909091. ROC AUC: 0.5.
+TN: 0. FP: 4. FN: 0. TP: 20
+--------------
+RandomFore
+genre_documentary
+--------------
+Accuracy: 0.8333333333333334. F1: 0.9090909090909091. ROC AUC: 0.5.
+TN: 0. FP: 4. FN: 0. TP: 20
+--------------
+MLPClassif
+genre_documentary
+--------------
+Accuracy: 0.8333333333333334. F1: 0.9090909090909091. ROC AUC: 0.5.
+TN: 0. FP: 4. FN: 0. TP: 20
+(2411, 59417)
+--------------
+BernoulliN
+genre_drama
+--------------
+Accuracy: 0.5755693581780539. F1: 0.6998535871156663. ROC AUC: 0.5391098714528256.
+TN: 39. FP: 178. FN: 27. TP: 239
+--------------
+LogisticRe
+genre_drama
+--------------
+/Users/varuntandon/Github/CS221FinalProject/221venv/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:931: ConvergenceWarning: lbfgs failed to converge (status=1): b'STOP: TOTAL NO. of ITERATIONS REACHED LIMIT'. Increase the number of iterations.
+  n_iter_i = _check_optimize_result(solver, opt_res, max_iter)
+Accuracy: 0.6480331262939959. F1: 0.6897810218978102. ROC AUC: 0.6409774436090225.
+TN: 124. FP: 93. FN: 77. TP: 189
+--------------
+RandomFore
+genre_drama
+--------------
+Accuracy: 0.5838509316770186. F1: 0.6564102564102564. ROC AUC: 0.5682755275284986.
+TN: 90. FP: 127. FN: 74. TP: 192
+--------------
+MLPClassif
+genre_drama
+--------------
+Accuracy: 0.6687370600414079. F1: 0.7037037037037037. ROC AUC: 0.663594470046083.
+TN: 133. FP: 84. FN: 76. TP: 190
+(22, 716)
+--------------
+BernoulliN
+genre_faith_and_spirituality
+--------------
+Accuracy: 0.6. F1: 0.0. ROC AUC: 0.5.
+TN: 3. FP: 0. FN: 2. TP: 0
+--------------
+LogisticRe
+genre_faith_and_spirituality
+--------------
+Accuracy: 0.4. F1: 0.0. ROC AUC: 0.33333333333333337.
+TN: 2. FP: 1. FN: 2. TP: 0
+--------------
+RandomFore
+genre_faith_and_spirituality
+--------------
+Accuracy: 0.6. F1: 0.0. ROC AUC: 0.5.
+TN: 3. FP: 0. FN: 2. TP: 0
+--------------
+MLPClassif
+genre_faith_and_spirituality
+--------------
+Accuracy: 0.6. F1: 0.6666666666666666. ROC AUC: 0.6666666666666667.
+TN: 1. FP: 2. FN: 0. TP: 2
+(7, 280)
+--------------
