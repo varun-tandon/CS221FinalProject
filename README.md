@@ -60,3 +60,6 @@ examples_w_important_feats_only.pkl - important features generated via reduction
 file_titles.txt - used for file matching
 script_rating_correlations.ipynb, correlation_analysis.ipynb - notebooks for script analysis
 BERT.ipynb - notebook for BERT analysis via ktrain
+helper_scripts - scripts for matching
+datasets - datasets used
+movie_scripts - movie scripts
