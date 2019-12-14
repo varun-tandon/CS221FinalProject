@@ -63,5 +63,6 @@ datasets/ - datasets used
 movie_scripts/ - movie scripts    
 pickled_files/ - pickled files for caching consistent data
 statified_analysis.ipynb - attempts at stratified analysis of models
+correlation_analysis.ipynb - used to generate data plots
 
 Note: If there are path issues, it is likely because a file has been moved to the datasets folder. Remove datasets that are not found and place them in the home directory in order to fix this.
