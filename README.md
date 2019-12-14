@@ -63,3 +63,6 @@ BERT.ipynb - notebook for BERT analysis via ktrain
 helper_scripts - scripts for matching   
 datasets - datasets used  
 movie_scripts - movie scripts    
+
+
+Note: If there are path issues, it is likely because a file has been moved to the datasets folder. Remove datasets that are not found and place them in the home directory in order to fix this.
