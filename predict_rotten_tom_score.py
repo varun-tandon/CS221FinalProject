@@ -72,40 +72,9 @@ X = X.toarray()
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1)
 
-classifiers = [
-    #LogisticRegression(solver='saga', max_iter=3000, random_state=1, n_jobs=-1, verbose=True),
-    # KNeighborsClassifier(n_neighbors=4, n_jobs=-1),
-    # KNeighborsClassifier(n_neighbors=3, n_jobs=-1),
-    # KNeighborsClassifier(n_neighbors=5, n_jobs=-1),
-    # KNeighborsClassifier(n_neighbors=315, n_jobs=-1),
-    # KNeighborsClassifier(n_neighbors=325, n_jobs=-1),
-    # KNeighborsClassifier(n_neighbors=335, n_jobs=-1),
-    # KNeighborsClassifier(n_neighbors=345, n_jobs=-1),
-    # KNeighborsClassifier(n_neighbors=355, n_jobs=-1),
-    # KNeighborsClassifier(n_neighbors=365, n_jobs=-1),
-    # KNeighborsClassifier(n_neighbors=375, n_jobs=-1),
-    # KNeighborsClassifier(n_neighbors=385, n_jobs=-1),
-    # KNeighborsClassifier(n_neighbors=395, n_jobs=-1),
-    # KNeighborsClassifier(n_neighbors=415, n_jobs=-1),
-    # KNeighborsClassifier(n_neighbors=425, n_jobs=-1),
-    # KNeighborsClassifier(n_neighbors=435, n_jobs=-1),
-    # KNeighborsClassifier(n_neighbors=445, n_jobs=-1),
-    # KNeighborsClassifier(n_neighbors=455, n_jobs=-1),
-    # KNeighborsClassifier(n_neighbors=465, n_jobs=-1),
-    # KNeighborsClassifier(n_neighbors=475, n_jobs=-1),
-    # KNeighborsClassifier(n_neighbors=485, n_jobs=-1),
-    # KNeighborsClassifier(n_neighbors=495, n_jobs=-1),
-    # KNeighborsClassifier(n_neighbors=20, n_jobs=-1),
-    # KNeighborsClassifier(n_neighbors=25, n_jobs=-1),
-    # LinearSVC(max_iter=1000),
-    # svm.SVC(gamma='scale'),
-     #BaggingClassifier(LogisticRegression(solver='sag', max_iter=1000, random_state=1, verbose=True), n_jobs=-1),
-    # RandomForestClassifier(n_estimators=100, n_jobs=-1, random_state=1),
-    # GaussianNB(),
-    # MLPClassifier(hidden_layer_sizes=(100, 50, 10), early_stopping=True),
-]
+################## CROSS VALIDATION ##################
 
-#cross validation of logistic regression
+# Logistic regression
 prev_score = float('-Inf')
 final_c = 1
 for c in range(1, 11, 1):
@@ -117,9 +86,46 @@ for c in range(1, 11, 1):
     if score > prev_score:
         prev_score = score
         final_c = the_c
-    
+
+#knn
+prev_score = float('-Inf')
+final_k = 1
+potential_ks = [3,4,5, 20, 25]
+potential_ks += range(315, 505, 10)
+for k in potential_ks:
+    print('testing k value:', k)
+    model = KNeighborsClassifier(n_neighbors=k, n_jobs=-1)
+    scores = cross_val_score(model, X_train, y_train, cv=5)
+    score = sum(scores) / len(scores)
+    if score > prev_score:
+        prev_score = score
+        final_k = k
+
+#random forests
+prev_score = float('-Inf')
+final_n = 1
+for n in range(0, 200, 10):
+    print('testing n value:', k)
+    model = RandomForestClassifier(n_estimators=n, n_jobs=-1, random_state=1)
+    scores = cross_val_score(model, X_train, y_train, cv=5)
+    score = sum(scores) / len(scores)
+    if score > prev_score:
+        prev_score = score
+        final_n = n
 
 
+################################################################################
+
+classifiers = [
+    LogisticRegression(C=final_c, solver='saga', max_iter=3000, random_state=1, n_jobs=-1, verbose=True),
+    KNeighborsClassifier(n_neighbors=final_k, n_jobs=-1),
+    LinearSVC(max_iter=1000),
+    svm.SVC(gamma='scale'),
+    BaggingClassifier(LogisticRegression(solver='sag', max_iter=1000, random_state=1, verbose=True), n_jobs=-1),
+    RandomForestClassifier(n_estimators=final_n, n_jobs=-1, random_state=1),
+    GaussianNB(),
+    MLPClassifier(hidden_layer_sizes=(100, 50, 10), early_stopping=True),
+]
 
 
 '''
@@ -225,22 +231,25 @@ for clf in classifiers:
     print("Accuracy: {}. F1: {}. ROC AUC: {}.".format(accuracy, f1, roc))
     print("TN: {}. FP: {}. FN: {}. TP: {}".format(tn, fp, fn, tp))
 
-# estimators = []
-# i = 0
-# for clf in classifiers:
-#     estimators.append((str(i), clf))
-#     i += 1
 
-# clf = VotingClassifier(estimators, n_jobs=-1)
-# print("--------------")
-# clf.fit(X_train, y_train)
-# y_pred = clf.predict(X_test)
+#Voting classifier
 
-# accuracy = accuracy_score(y_test, y_pred)
-# f1 = f1_score(y_test, y_pred)
-# roc = roc_auc_score(y_test, y_pred)
-# tn, fp, fn, tp = confusion_matrix(y_test, y_pred).ravel()
+estimators = []
+i = 0
+for clf in classifiers:
+    estimators.append((str(i), clf))
+    i += 1
 
-# print("Accuracy: {}. F1: {}. ROC AUC: {}.".format(accuracy, f1, roc))
-# print("TN: {}. FP: {}. FN: {}. TP: {}".format(tn, fp, fn, tp))
-# print(clf.coef_)
+clf = VotingClassifier(estimators, n_jobs=-1)
+print("--------------")
+clf.fit(X_train, y_train)
+y_pred = clf.predict(X_test)
+
+accuracy = accuracy_score(y_test, y_pred)
+f1 = f1_score(y_test, y_pred)
+roc = roc_auc_score(y_test, y_pred)
+tn, fp, fn, tp = confusion_matrix(y_test, y_pred).ravel()
+
+print("Accuracy: {}. F1: {}. ROC AUC: {}.".format(accuracy, f1, roc))
+print("TN: {}. FP: {}. FN: {}. TP: {}".format(tn, fp, fn, tp))
+print(clf.coef_)
